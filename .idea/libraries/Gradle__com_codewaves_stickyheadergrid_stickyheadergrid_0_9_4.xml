@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.codewaves.stickyheadergrid:stickyheadergrid-0.9.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stickyheadergrid-0.9.4.aar/b9f8eec1e2e1698da6d9b54c220a12e2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stickyheadergrid-0.9.4.aar/b9f8eec1e2e1698da6d9b54c220a12e2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codewaves.stickyheadergrid/stickyheadergrid/0.9.4/bfacda0ebce3b1612c6849d3be4d1b1e18feb0da/stickyheadergrid-0.9.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

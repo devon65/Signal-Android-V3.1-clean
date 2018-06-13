@@ -3,6 +3,7 @@ package org.thoughtcrime.securesms.crypto.storage;
 import android.content.Context;
 import android.util.Log;
 
+import org.thoughtcrime.securesms.IsMITMAttackOn;
 import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
 import org.thoughtcrime.securesms.crypto.SessionUtil;
 import org.thoughtcrime.securesms.database.Address;
@@ -56,7 +57,17 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
         return false;
       }
 
-      if (!identityRecord.get().getIdentityKey().equals(identityKey)) {
+      //Elham code starts here
+      //Here we are making the condition true if the Attack is on
+      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+      //Elham code ends here
+
+      if (!identityRecord.get().getIdentityKey().equals(identityKey)
+      //Elham code starts here
+      //Here we are making the condition true if the Attack is on
+      || (isMITMAttackOn.isAttackOn())
+      //Elham code ends here
+              ) {
         Log.w(TAG, "Replacing existing identity...");
         VerifiedStatus verifiedStatus;
 
@@ -96,6 +107,16 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
       String           ourNumber        = TextSecurePreferences.getLocalNumber(context);
       Address          theirAddress     = Address.fromExternal(context, address.getName());
 
+      //Elham code starts here
+      //Here we are returning false if the Attack is on
+
+      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+      if (isMITMAttackOn.isAttackOn()) {
+        return false;
+      }
+
+      //Elham code ends here
+
       if (ourNumber.equals(address.getName()) || Address.fromSerialized(ourNumber).equals(theirAddress)) {
         return identityKey.equals(IdentityKeyUtil.getIdentityKey(context));
       }
@@ -109,6 +130,17 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
   }
 
   private boolean isTrustedForSending(IdentityKey identityKey, Optional<IdentityRecord> identityRecord) {
+
+    //Elham code starts here
+    //Here we are returning false if the Attack is on
+
+    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+    if (isMITMAttackOn.isAttackOn()) {
+      return false;
+    }
+
+    //Elham code ends here
+
     if (!identityRecord.isPresent()) {
       Log.w(TAG, "Nothing here, returning true...");
       return true;
