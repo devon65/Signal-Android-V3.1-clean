@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.whispersystems:curve25519-android-0.4.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/curve25519-android-0.4.1.aar/ad960832e9ff336a698a482585767c38/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/curve25519-android-0.4.1.aar/ad960832e9ff336a698a482585767c38/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

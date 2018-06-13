@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.whispersystems:signal-service-java:2.7.6@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-service-java/2.7.6/85ebc56f00a7bb715ec5ccfb4fb34ae54a503305/signal-service-java-2.7.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.whispersystems/signal-service-java/2.7.6/ee9070a2447fe99363bbf22c47957a005c58de0a/signal-service-java-2.7.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
