@@ -2,13 +2,13 @@ package org.thoughtcrime.securesms;
 
 public class IsMITMAttackOn {
     private static boolean isAttackOn = false;
-    private static boolean isTextSent = true;
+    private static boolean isTextSent = false;
 
     public boolean isAttackOn() {
         return isAttackOn;
     }
 
-    public static boolean isIsTextSent() {
+    public static boolean isTextSent() {
         return isTextSent;
     }
 
@@ -16,7 +16,7 @@ public class IsMITMAttackOn {
         IsMITMAttackOn.isTextSent = isTextSent;
     }
 
-    public void setAttackOn(boolean attackOn) {
+    public void setIsAttackOn(boolean attackOn) {
         isAttackOn = attackOn;
     }
 }

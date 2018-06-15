@@ -123,6 +123,7 @@ public class IdentityUtil {
   }
 
   public static void markIdentityUpdate(Context context, Recipient recipient) {
+
     long                 time          = System.currentTimeMillis();
     SmsDatabase          smsDatabase   = DatabaseFactory.getSmsDatabase(context);
     GroupDatabase        groupDatabase = DatabaseFactory.getGroupDatabase(context);
@@ -146,7 +147,14 @@ public class IdentityUtil {
 
     if (insertResult.isPresent()) {
       MessageNotifier.updateNotification(context, insertResult.get().getThreadId());
+
     }
+    //Elham code starts here
+    //Here we are marking that the text message warning has been sent
+    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+    isMITMAttackOn.setIsAttackOn(false);
+    //isMITMAttackOn.setIsTextSent(true);
+    //Elham code ends here
   }
 
   public static void saveIdentity(Context context, String number, IdentityKey identityKey) {

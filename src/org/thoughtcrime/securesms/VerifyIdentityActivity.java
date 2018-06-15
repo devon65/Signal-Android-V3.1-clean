@@ -614,6 +614,13 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
                                                                                 VerifiedStatus.DEFAULT));
 
             IdentityUtil.markIdentityVerified(getActivity(), recipient, isChecked, false);
+
+            //Elham code starts here
+            //Here we are turning off the attack mode because the user has marked the contact
+            //as verified
+            IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+            isMITMAttackOn.setIsAttackOn(false);
+            //Elham code ends here
           }
           return null;
         }

@@ -82,6 +82,7 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
         identityDatabase.saveIdentity(signalAddress, identityKey, verifiedStatus, false, System.currentTimeMillis(), nonBlockingApproval);
         IdentityUtil.markIdentityUpdate(context, Recipient.from(context, signalAddress, true));
         SessionUtil.archiveSiblingSessions(context, address);
+
         return true;
       }
 
@@ -106,16 +107,6 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
       IdentityDatabase identityDatabase = DatabaseFactory.getIdentityDatabase(context);
       String           ourNumber        = TextSecurePreferences.getLocalNumber(context);
       Address          theirAddress     = Address.fromExternal(context, address.getName());
-
-      //Elham code starts here
-      //Here we are returning false if the Attack is on
-
-      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
-      if (isMITMAttackOn.isAttackOn()) {
-        return false;
-      }
-
-      //Elham code ends here
 
       if (ourNumber.equals(address.getName()) || Address.fromSerialized(ourNumber).equals(theirAddress)) {
         return identityKey.equals(IdentityKeyUtil.getIdentityKey(context));
