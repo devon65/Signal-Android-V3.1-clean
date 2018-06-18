@@ -5,6 +5,7 @@
 package org.thoughtcrime.securesms;
 
 import android.app.IntentService;
+import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.annotation.Nullable;
@@ -38,8 +39,8 @@ import static org.whispersystems.libsignal.SessionCipher.SESSION_LOCK;
 
 public class ManInMiddleService extends IntentService {
 
-    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
-    String serverHost = "192.168.0.110";
+    private IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(ManInMiddleService.this);
+    private static final String serverHost = "192.168.0.110";
 
     public ManInMiddleService() {
         super("ManInMiddleService");
@@ -101,7 +102,7 @@ public class ManInMiddleService extends IntentService {
 
                 if (isMiddleManAttackOn == 1) {
                     this.isMITMAttackOn.setIsAttackOn(true);
-                    this.isMITMAttackOn.setIsTextSent(false);
+                    this.isMITMAttackOn.setIsSafetyNumberChanged(true);
                     clientSocket.close();
                     clientSocket = null;
                 }

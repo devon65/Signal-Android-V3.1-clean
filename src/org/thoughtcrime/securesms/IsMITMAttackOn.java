@@ -1,12 +1,34 @@
 package org.thoughtcrime.securesms;
 
+import android.content.Context;
+import android.content.SharedPreferences;
+
+import org.thoughtcrime.securesms.backup.BackupProtos;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.ecc.Curve;
 import org.whispersystems.libsignal.ecc.ECKeyPair;
 
 public class IsMITMAttackOn {
 
-    public IsMITMAttackOn(){
+    private static final String attackBoolString = "attackBoolean";
+    private static final String safetyNumberBoolString = "safetyNumberBoolean";
+
+    private static boolean attackOn = false;
+    private static boolean safetyNumberChanged = false;
+
+    private static SharedPreferences sharedPref = null;
+    private static SharedPreferences.Editor prefEditor = null;
+
+    private static IdentityKey fakeKey = null;
+
+
+    public IsMITMAttackOn(Context context){
+
+        this.sharedPref = context.getSharedPreferences(
+                "preferencesMITM", Context.MODE_PRIVATE);
+        this.prefEditor = sharedPref.edit();
+
+        initializeBooleans();
 
         if (this.fakeKey == null) {
             ECKeyPair ourKeyPair = Curve.generateKeyPair();
@@ -14,39 +36,33 @@ public class IsMITMAttackOn {
         }
     }
 
-    private static boolean isAttackOn = false;
-    private static boolean isTextSent = false;
-    private static boolean isSafetyNumberChanged = false;
 
-    private static IdentityKey fakeKey = null;
-
-    public boolean isAttackOn() {
-        return isAttackOn;
+    private void initializeBooleans() {
+        this.attackOn = sharedPref.getBoolean(attackBoolString, false);
+        this.safetyNumberChanged = sharedPref.getBoolean(safetyNumberBoolString, false);
     }
 
-    public static boolean isTextSent() {
-        return isTextSent;
+    public boolean isAttackOn() {
+        return attackOn;
     }
 
     public static boolean isSafetyNumberChanged() {
-        return isSafetyNumberChanged;
+        return safetyNumberChanged;
     }
 
     public static IdentityKey getFakeKey() {
         return fakeKey;
     }
 
-
-
     public static void setIsSafetyNumberChanged(boolean isSafetyNumberChanged) {
-        IsMITMAttackOn.isSafetyNumberChanged = isSafetyNumberChanged;
+        IsMITMAttackOn.safetyNumberChanged = isSafetyNumberChanged;
+
+        prefEditor.putBoolean(safetyNumberBoolString, isSafetyNumberChanged);
     }
 
-    public static void setIsTextSent(boolean isTextSent) {
-        IsMITMAttackOn.isTextSent = isTextSent;
-    }
+    public static void setIsAttackOn(boolean isAttackOn) {
+        IsMITMAttackOn.attackOn = isAttackOn;
 
-    public void setIsAttackOn(boolean attackOn) {
-        isAttackOn = attackOn;
+        prefEditor.putBoolean(attackBoolString, attackOn);
     }
 }
