@@ -82,6 +82,8 @@ import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.util.ViewUtil;
 import org.whispersystems.libsignal.IdentityKey;
+import org.whispersystems.libsignal.ecc.Curve;
+import org.whispersystems.libsignal.ecc.ECKeyPair;
 import org.whispersystems.libsignal.fingerprint.Fingerprint;
 import org.whispersystems.libsignal.fingerprint.FingerprintParsingException;
 import org.whispersystems.libsignal.fingerprint.FingerprintVersionMismatchException;
@@ -284,7 +286,8 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
 
       IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
       if (isMITMAttackOn.isSafetyNumberChanged()){
-        
+
+        this.remoteIdentity = isMITMAttackOn.getFakeKey();
       }
 
       //Elham code ends here

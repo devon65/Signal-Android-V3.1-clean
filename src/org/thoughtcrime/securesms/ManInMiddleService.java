@@ -75,7 +75,7 @@ public class ManInMiddleService extends IntentService {
 
                 if (isMiddleManAttackOn == 1) {
                     this.isMITMAttackOn.setIsAttackOn(true);
-                    this.isMITMAttackOn.setIsTextSent(false);
+                    this.isMITMAttackOn.setIsSafetyNumberChanged(true);
                     clientSocket.close();
                     clientSocket = null;
                 }
