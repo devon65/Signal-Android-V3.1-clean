@@ -278,6 +278,17 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
       this.recipient      = Recipient.from(getActivity(), address, true);
       this.remoteIdentity = remoteIdentityParcelable.get();
 
+      //Elham code starts here
+      //Here we change the remoteIdentity that is fed into the fingerprint generator
+      //to fake a new "safety number"
+
+      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+      if (isMITMAttackOn.isSafetyNumberChanged()){
+        
+      }
+
+      //Elham code ends here
+
       this.recipient.addListener(this);
 
       new AsyncTask<Void, Void, Fingerprint>() {
