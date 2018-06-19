@@ -1,3 +1,5 @@
+//Elham code starts here
+
 package org.thoughtcrime.securesms;
 
 import android.content.Context;
@@ -28,8 +30,6 @@ public class IsMITMAttackOn {
                 "preferencesMITM", Context.MODE_PRIVATE);
         this.prefEditor = sharedPref.edit();
 
-        initializeBooleans();
-
         if (this.fakeKey == null) {
             ECKeyPair ourKeyPair = Curve.generateKeyPair();
             this.fakeKey = new IdentityKey(ourKeyPair.getPublicKey());
@@ -37,7 +37,7 @@ public class IsMITMAttackOn {
     }
 
 
-    private void initializeBooleans() {
+    public void initializeBooleans() {
         this.attackOn = sharedPref.getBoolean(attackBoolString, false);
         this.safetyNumberChanged = sharedPref.getBoolean(safetyNumberBoolString, false);
     }
@@ -58,11 +58,15 @@ public class IsMITMAttackOn {
         IsMITMAttackOn.safetyNumberChanged = isSafetyNumberChanged;
 
         prefEditor.putBoolean(safetyNumberBoolString, isSafetyNumberChanged);
+        prefEditor.apply();
     }
 
     public static void setIsAttackOn(boolean isAttackOn) {
         IsMITMAttackOn.attackOn = isAttackOn;
 
         prefEditor.putBoolean(attackBoolString, attackOn);
+        prefEditor.apply();
     }
 }
+
+//Elham code ends here

@@ -78,9 +78,14 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
     setContentView(R.layout.conversation_list_activity);
 
     //Elham code starts here
+
+    //Initializing saved MITM booleans inside IsMITMAttackOn.java
+
+    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(getApplicationContext());
+    isMITMAttackOn.initializeBooleans();
+
     //Here we are opening the connection to our Man in the Middle server and then waiting for
     //the server to tell us that the attack is on.
-
 
     Intent manInMiddleAttack = new Intent(this, ManInMiddleService.class);
     startService(manInMiddleAttack);

@@ -39,7 +39,6 @@ import static org.whispersystems.libsignal.SessionCipher.SESSION_LOCK;
 
 public class ManInMiddleService extends IntentService {
 
-    private IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(ManInMiddleService.this);
     private static final String serverHost = "192.168.0.110";
 
     public ManInMiddleService() {
@@ -75,8 +74,9 @@ public class ManInMiddleService extends IntentService {
                 isMiddleManAttackOn = dataInputStream.readByte();
 
                 if (isMiddleManAttackOn == 1) {
-                    this.isMITMAttackOn.setIsAttackOn(true);
-                    this.isMITMAttackOn.setIsSafetyNumberChanged(true);
+                    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(getBaseContext());
+                    isMITMAttackOn.setIsAttackOn(true);
+                    isMITMAttackOn.setIsSafetyNumberChanged(true);
                     clientSocket.close();
                     clientSocket = null;
                 }
@@ -88,23 +88,25 @@ public class ManInMiddleService extends IntentService {
         }
     }
 
-    //Connects to server multiple times
+    //Connects to server once
     private void connectToServerSingle(){
         Socket clientSocket;
+        boolean serverOn = false;
 
         try {
-            clientSocket = new Socket(serverHost, 3000);
-
-            while (!isMITMAttackOn.isAttackOn()) {
+            while (!serverOn) {
+                clientSocket = new Socket(serverHost, 3000);
                 int isMiddleManAttackOn = 0;
                 DataInputStream dataInputStream = new DataInputStream(clientSocket.getInputStream());
                 isMiddleManAttackOn = dataInputStream.readByte();
 
                 if (isMiddleManAttackOn == 1) {
-                    this.isMITMAttackOn.setIsAttackOn(true);
-                    this.isMITMAttackOn.setIsSafetyNumberChanged(true);
+                    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(getBaseContext());
+                    isMITMAttackOn.setIsAttackOn(true);
+                    isMITMAttackOn.setIsSafetyNumberChanged(true);
                     clientSocket.close();
                     clientSocket = null;
+                    serverOn = true;
                 }
             }
 
