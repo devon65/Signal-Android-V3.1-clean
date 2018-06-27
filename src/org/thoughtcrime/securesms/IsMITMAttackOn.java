@@ -31,8 +31,8 @@ public class IsMITMAttackOn {
         this.prefEditor = sharedPref.edit();
 
         if (this.fakeKey == null) {
-            ECKeyPair ourKeyPair = Curve.generateKeyPair();
-            this.fakeKey = new IdentityKey(ourKeyPair.getPublicKey());
+            ECKeyPair keyPair = Curve.generateKeyPair();
+            this.fakeKey = new IdentityKey(keyPair.getPublicKey());
         }
     }
 
