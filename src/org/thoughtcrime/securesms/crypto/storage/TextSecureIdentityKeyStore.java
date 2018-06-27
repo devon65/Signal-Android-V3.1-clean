@@ -59,7 +59,7 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
 
       //Elham code starts here
       //Here we are making the condition true if the Attack is on
-      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(context);
+      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
       //Elham code ends here
 
       if (!identityRecord.get().getIdentityKey().equals(identityKey)
@@ -125,7 +125,7 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
     //Elham code starts here
     //Here we are returning false if the Attack is on
 
-    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(context);
+    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
     if (isMITMAttackOn.isAttackOn()) {
       return false;
     }

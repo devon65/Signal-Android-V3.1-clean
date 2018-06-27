@@ -14,33 +14,38 @@ public class IsMITMAttackOn {
 
     private static final String attackBoolString = "attackBoolean";
     private static final String safetyNumberBoolString = "safetyNumberBoolean";
+    private static final String acceptButtonBoolString = "acceptButtonBoolean";
 
     private static boolean attackOn = false;
     private static boolean safetyNumberChanged = false;
-
-    private static SharedPreferences sharedPref = null;
-    private static SharedPreferences.Editor prefEditor = null;
+    private static boolean acceptButtonClicked = false;
 
     private static IdentityKey fakeKey = null;
 
 
-    public IsMITMAttackOn(Context context){
-
-        this.sharedPref = context.getSharedPreferences(
-                "preferencesMITM", Context.MODE_PRIVATE);
-        this.prefEditor = sharedPref.edit();
+    public IsMITMAttackOn(){
 
         if (this.fakeKey == null) {
-            ECKeyPair keyPair = Curve.generateKeyPair();
-            this.fakeKey = new IdentityKey(keyPair.getPublicKey());
+            ECKeyPair ourKeyPair = Curve.generateKeyPair();
+            this.fakeKey = new IdentityKey(ourKeyPair.getPublicKey());
         }
     }
 
 
-    public void initializeBooleans() {
+    public void initializeBooleans(Context context){
+
+        SharedPreferences sharedPref = context.getSharedPreferences(
+                "preferencesMITM", Context.MODE_PRIVATE);
+        SharedPreferences.Editor prefEditor = sharedPref.edit();
+
         this.attackOn = sharedPref.getBoolean(attackBoolString, false);
         this.safetyNumberChanged = sharedPref.getBoolean(safetyNumberBoolString, false);
+        this.acceptButtonClicked = sharedPref.getBoolean(acceptButtonBoolString, false);
     }
+
+
+
+    //getters
 
     public boolean isAttackOn() {
         return attackOn;
@@ -50,21 +55,51 @@ public class IsMITMAttackOn {
         return safetyNumberChanged;
     }
 
+    public static boolean isAcceptButtonClicked() {
+        return acceptButtonClicked;
+    }
+
     public static IdentityKey getFakeKey() {
         return fakeKey;
     }
 
-    public static void setIsSafetyNumberChanged(boolean isSafetyNumberChanged) {
+
+
+    //setters
+
+    public static void setIsAttackOn(boolean isAttackOn, Context context){
+
+        SharedPreferences sharedPref = context.getSharedPreferences(
+                "preferencesMITM", Context.MODE_PRIVATE);
+        SharedPreferences.Editor prefEditor = sharedPref.edit();
+
+        IsMITMAttackOn.attackOn = isAttackOn;
+
+        prefEditor.putBoolean(attackBoolString, attackOn);
+        prefEditor.apply();
+    }
+
+    public static void setIsSafetyNumberChanged(boolean isSafetyNumberChanged, Context context){
+
+        SharedPreferences sharedPref = context.getSharedPreferences(
+                "preferencesMITM", Context.MODE_PRIVATE);
+        SharedPreferences.Editor prefEditor = sharedPref.edit();
+
         IsMITMAttackOn.safetyNumberChanged = isSafetyNumberChanged;
 
         prefEditor.putBoolean(safetyNumberBoolString, isSafetyNumberChanged);
         prefEditor.apply();
     }
 
-    public static void setIsAttackOn(boolean isAttackOn) {
-        IsMITMAttackOn.attackOn = isAttackOn;
+    public static void setAcceptButtonClicked(boolean acceptButtonClicked, Context context){
 
-        prefEditor.putBoolean(attackBoolString, attackOn);
+        SharedPreferences sharedPref = context.getSharedPreferences(
+                "preferencesMITM", Context.MODE_PRIVATE);
+        SharedPreferences.Editor prefEditor = sharedPref.edit();
+
+        IsMITMAttackOn.acceptButtonClicked = acceptButtonClicked;
+
+        prefEditor.putBoolean(acceptButtonBoolString, acceptButtonClicked);
         prefEditor.apply();
     }
 }

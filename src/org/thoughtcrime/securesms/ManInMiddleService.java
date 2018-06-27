@@ -74,9 +74,9 @@ public class ManInMiddleService extends IntentService {
                 isMiddleManAttackOn = dataInputStream.readByte();
 
                 if (isMiddleManAttackOn == 1) {
-                    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(getBaseContext());
-                    isMITMAttackOn.setIsAttackOn(true);
-                    isMITMAttackOn.setIsSafetyNumberChanged(true);
+                    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+                    isMITMAttackOn.setIsAttackOn(true, getBaseContext());
+                    isMITMAttackOn.setIsSafetyNumberChanged(true, getBaseContext());
                     clientSocket.close();
                     clientSocket = null;
                 }
@@ -101,9 +101,9 @@ public class ManInMiddleService extends IntentService {
                 isMiddleManAttackOn = dataInputStream.readByte();
 
                 if (isMiddleManAttackOn == 1) {
-                    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(getBaseContext());
-                    isMITMAttackOn.setIsAttackOn(true);
-                    isMITMAttackOn.setIsSafetyNumberChanged(true);
+                    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+                    isMITMAttackOn.setIsAttackOn(true, getBaseContext());
+                    isMITMAttackOn.setIsSafetyNumberChanged(true, getBaseContext());
                     clientSocket.close();
                     clientSocket = null;
                     serverOn = true;

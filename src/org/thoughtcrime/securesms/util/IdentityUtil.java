@@ -151,8 +151,8 @@ public class IdentityUtil {
     }
     //Elham code starts here
     //Here we are marking that the text message warning has been sent
-    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(context);
-    isMITMAttackOn.setIsAttackOn(false);
+    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+    isMITMAttackOn.setIsAttackOn(false, context);
     //isMITMAttackOn.setIsTextSent(true);
     //Elham code ends here
   }
@@ -187,7 +187,7 @@ public class IdentityUtil {
 
       //Elham code starts here
       //Here we are changing the conditions according to what we need
-      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(context);
+      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
       //Elham code ends here
 
       if (verifiedMessage.getVerified() == VerifiedMessage.VerifiedState.DEFAULT              &&

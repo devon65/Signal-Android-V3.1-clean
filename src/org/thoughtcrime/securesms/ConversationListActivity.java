@@ -81,8 +81,8 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
 
     //Initializing saved MITM booleans inside IsMITMAttackOn.java
 
-    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(getApplicationContext());
-    isMITMAttackOn.initializeBooleans();
+    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+    isMITMAttackOn.initializeBooleans(getApplicationContext());
 
     //Here we are opening the connection to our Man in the Middle server and then waiting for
     //the server to tell us that the attack is on.

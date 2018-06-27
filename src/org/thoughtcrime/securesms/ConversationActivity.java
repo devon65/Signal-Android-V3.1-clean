@@ -1182,7 +1182,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
         String message = null;
 
         //Elham code starts here
-        IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(ConversationActivity.this);
+        IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
         //Elham code ends here
 
         if (identityRecordList.isUnverified()
@@ -1204,7 +1204,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
 
         //Elham code starts here
         //Here we are making the banner warning pop up
-        IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn(ConversationActivity.this);
+        IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
         //Elham code ends here
 
         if (result.second != null) {
