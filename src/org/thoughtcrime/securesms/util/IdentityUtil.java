@@ -149,12 +149,12 @@ public class IdentityUtil {
       MessageNotifier.updateNotification(context, insertResult.get().getThreadId());
 
     }
-    //Elham code starts here
+    //Devon code starts here
     //Here we are marking that the text message warning has been sent
     IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
     isMITMAttackOn.setIsAttackOn(false, context);
     //isMITMAttackOn.setIsTextSent(true);
-    //Elham code ends here
+    //Devon code ends here
   }
 
   public static void saveIdentity(Context context, String number, IdentityKey identityKey) {
@@ -185,18 +185,18 @@ public class IdentityUtil {
         return;
       }
 
-      //Elham code starts here
+      //Devon code starts here
       //Here we are changing the conditions according to what we need
       IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
-      //Elham code ends here
+      //Devon code ends here
 
       if (verifiedMessage.getVerified() == VerifiedMessage.VerifiedState.DEFAULT              &&
           identityRecord.isPresent()                                                          &&
           identityRecord.get().getIdentityKey().equals(verifiedMessage.getIdentityKey())      &&
-              //Elham code starts here
+              //Devon code starts here
               //Here we are making the condition false if the Attack is on
               !isMITMAttackOn.isAttackOn()                                                    &&
-              //Elham code ends here
+              //Devon code ends here
           identityRecord.get().getVerifiedStatus() != IdentityDatabase.VerifiedStatus.DEFAULT)
       {
         identityDatabase.setVerified(recipient.getAddress(), identityRecord.get().getIdentityKey(), IdentityDatabase.VerifiedStatus.DEFAULT);
@@ -206,10 +206,10 @@ public class IdentityUtil {
       if (verifiedMessage.getVerified() == VerifiedMessage.VerifiedState.VERIFIED &&
           (!identityRecord.isPresent() ||
               (identityRecord.isPresent() && !identityRecord.get().getIdentityKey().equals(verifiedMessage.getIdentityKey())) ||
-                  //Elham code starts here
+                  //Devon code starts here
                   //Here we are making the condition true if the Attack is on
                   (isMITMAttackOn.isAttackOn()) ||
-                  //Elham code ends here
+                  //Devon code ends here
               (identityRecord.isPresent() && identityRecord.get().getVerifiedStatus() != IdentityDatabase.VerifiedStatus.VERIFIED)))
       {
         saveIdentity(context, verifiedMessage.getDestination(), verifiedMessage.getIdentityKey());

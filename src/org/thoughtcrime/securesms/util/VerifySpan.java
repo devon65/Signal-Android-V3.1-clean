@@ -9,6 +9,7 @@ import android.view.View;
 import org.thoughtcrime.securesms.VerifyIdentityActivity;
 import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
 import org.thoughtcrime.securesms.database.Address;
+import org.thoughtcrime.securesms.database.IdentityDatabase;
 import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
 import org.whispersystems.libsignal.IdentityKey;
 
@@ -35,7 +36,14 @@ public class VerifySpan extends ClickableSpan {
     Intent intent = new Intent(context, VerifyIdentityActivity.class);
     intent.putExtra(VerifyIdentityActivity.ADDRESS_EXTRA, address);
     intent.putExtra(VerifyIdentityActivity.IDENTITY_EXTRA, new IdentityKeyParcelable(identityKey));
-    intent.putExtra(VerifyIdentityActivity.VERIFIED_EXTRA, false);
+
+    //Devon code starts
+    //intent.putExtra(VerifyIdentityActivity.VERIFIED_EXTRA, false);
+    IdentityDatabase identityDatabase = new IdentityDatabase();
+    intent.putExtra(VerifyIdentityActivity.VERIFIED_EXTRA, identityKey.getVerifiedStatus() == IdentityDatabase.VerifiedStatus.VERIFIED);
+
+    //Devon code ends
+
     context.startActivity(intent);
   }
 }

@@ -57,16 +57,16 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
         return false;
       }
 
-      //Elham code starts here
+      //Devon code starts here
       //Here we are making the condition true if the Attack is on
       IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
-      //Elham code ends here
+      //Devon code ends here
 
       if (!identityRecord.get().getIdentityKey().equals(identityKey)
-      //Elham code starts here
+      //Devon code starts here
       //Here we are making the condition true if the Attack is on
       || (isMITMAttackOn.isAttackOn())
-      //Elham code ends here
+      //Devon code ends here
               ) {
         Log.w(TAG, "Replacing existing identity...");
         VerifiedStatus verifiedStatus;
@@ -122,7 +122,7 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
 
   private boolean isTrustedForSending(IdentityKey identityKey, Optional<IdentityRecord> identityRecord) {
 
-    //Elham code starts here
+    //Devon code starts here
     //Here we are returning false if the Attack is on
 
     IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
@@ -130,7 +130,7 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
       return false;
     }
 
-    //Elham code ends here
+    //Devon code ends here
 
     if (!identityRecord.isPresent()) {
       Log.w(TAG, "Nothing here, returning true...");

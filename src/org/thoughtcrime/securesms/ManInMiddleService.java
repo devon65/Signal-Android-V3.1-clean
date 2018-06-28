@@ -1,4 +1,4 @@
-//Elham code starts here
+//Devon code starts here
 //Creates connection to Man in the Middle Attack Server
 //if server is not on, it will wait 10 seconds and try again
 //It also reconnects after receiving the on signal and disconnecting
@@ -116,4 +116,4 @@ public class ManInMiddleService extends IntentService {
         }
     }
 }
-//Elham code ends here
+//Devon code ends here

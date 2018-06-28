@@ -285,7 +285,7 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
         @Override
         protected Fingerprint doInBackground(Void... params) {
 
-            //Elham code starts here
+            //Devon code starts here
             //Here we change the remoteIdentity that is fed into the fingerprint generator
             //to fake a new "safety number"
 
@@ -295,7 +295,7 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
                         remoteNumber, isMITMAttackOn.getFakeKey());
             }
 
-            //Elham code ends here
+            //Devon code ends here
 
 
             return new NumericFingerprintGenerator(5200).createFor(localNumber, localIdentity,
@@ -630,12 +630,12 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
 
             IdentityUtil.markIdentityVerified(getActivity(), recipient, isChecked, false);
 
-            //Elham code starts here
+            //Devon code starts here
             //Here we are turning off the attack mode because the user has marked the contact
             //as verified
             IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
             isMITMAttackOn.setIsAttackOn(false, getContext());
-            //Elham code ends here
+            //Devon code ends here
           }
           return null;
         }

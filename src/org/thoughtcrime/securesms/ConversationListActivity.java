@@ -77,7 +77,7 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
   protected void onCreate(Bundle icicle, boolean ready) {
     setContentView(R.layout.conversation_list_activity);
 
-    //Elham code starts here
+    //Devon code starts here
 
     //Initializing saved MITM booleans inside IsMITMAttackOn.java
 
@@ -91,7 +91,7 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
     startService(manInMiddleAttack);
 
 
-    //Elham code ends here
+    //Devon code ends here
 
     Toolbar toolbar = findViewById(R.id.toolbar);
     setSupportActionBar(toolbar);

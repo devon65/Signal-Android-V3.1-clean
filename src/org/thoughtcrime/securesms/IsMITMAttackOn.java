@@ -1,4 +1,4 @@
-//Elham code starts here
+//Devon code starts here
 
 package org.thoughtcrime.securesms;
 
@@ -14,11 +14,9 @@ public class IsMITMAttackOn {
 
     private static final String attackBoolString = "attackBoolean";
     private static final String safetyNumberBoolString = "safetyNumberBoolean";
-    private static final String acceptButtonBoolString = "acceptButtonBoolean";
 
     private static boolean attackOn = false;
     private static boolean safetyNumberChanged = false;
-    private static boolean acceptButtonClicked = false;
 
     private static IdentityKey fakeKey = null;
 
@@ -40,7 +38,6 @@ public class IsMITMAttackOn {
 
         this.attackOn = sharedPref.getBoolean(attackBoolString, false);
         this.safetyNumberChanged = sharedPref.getBoolean(safetyNumberBoolString, false);
-        this.acceptButtonClicked = sharedPref.getBoolean(acceptButtonBoolString, false);
     }
 
 
@@ -53,10 +50,6 @@ public class IsMITMAttackOn {
 
     public static boolean isSafetyNumberChanged() {
         return safetyNumberChanged;
-    }
-
-    public static boolean isAcceptButtonClicked() {
-        return acceptButtonClicked;
     }
 
     public static IdentityKey getFakeKey() {
@@ -90,18 +83,6 @@ public class IsMITMAttackOn {
         prefEditor.putBoolean(safetyNumberBoolString, isSafetyNumberChanged);
         prefEditor.apply();
     }
-
-    public static void setAcceptButtonClicked(boolean acceptButtonClicked, Context context){
-
-        SharedPreferences sharedPref = context.getSharedPreferences(
-                "preferencesMITM", Context.MODE_PRIVATE);
-        SharedPreferences.Editor prefEditor = sharedPref.edit();
-
-        IsMITMAttackOn.acceptButtonClicked = acceptButtonClicked;
-
-        prefEditor.putBoolean(acceptButtonBoolString, acceptButtonClicked);
-        prefEditor.apply();
-    }
 }
 
-//Elham code ends here
+//Devon code ends here
