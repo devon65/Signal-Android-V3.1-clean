@@ -1181,16 +1181,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
 
         String message = null;
 
-        //Devon code starts here
-        IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
-        //Devon code ends here
-
-        if (identityRecordList.isUnverified()
-                //Devon code starts here
-                //Here we are making the condition true if the Attack is on
-                || (isMITMAttackOn.isAttackOn())
-                //Devon code ends here
-                ) {
+        if (identityRecordList.isUnverified()) {
           message = IdentityUtil.getUnverifiedBannerDescription(ConversationActivity.this, identityRecordList.getUnverifiedRecipients(ConversationActivity.this));
         }
 
@@ -1201,11 +1192,6 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       protected void onPostExecute(@NonNull Pair<IdentityRecordList, String> result) {
         Log.w(TAG, "Got identity records: " + result.first.isUnverified());
         identityRecords.replaceWith(result.first);
-
-        //Devon code starts here
-        //Here we are making the banner warning pop up
-        IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
-        //Devon code ends here
 
         if (result.second != null) {
           Log.w(TAG, "Replacing banner...");

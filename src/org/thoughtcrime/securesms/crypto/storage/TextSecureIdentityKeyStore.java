@@ -138,6 +138,9 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
     }
 
     if (!identityKey.equals(identityRecord.get().getIdentityKey())) {
+
+      //Devon code starts: marking identityRecord as default/unverified
+
       Log.w(TAG, "Identity keys don't match...");
       return false;
     }
