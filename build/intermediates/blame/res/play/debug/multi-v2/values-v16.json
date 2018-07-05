@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/incremental/mergePlayDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/4aec3c9ce6130929a50637209b191638/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

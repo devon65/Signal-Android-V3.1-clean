@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/incremental/mergePlayDebugResources/merged.dir/values-v9/values-v9.xml",
+            "map": [
+                {
+                    "source": "/home/devon/Documents/signal-android-V3.1-clean/res/values-v9/styles.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endColumns": "92,99",
+                        "endOffsets": "143,243"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,147",
+                        "endColumns": "91,98",
+                        "endOffsets": "142,241"
+                    }
+                }
+            ]
+        }
+    ]
+}

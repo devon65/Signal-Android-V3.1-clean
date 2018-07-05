@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/incremental/mergePlayDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/android-crop-0.9.10.aar/07ea4fd8abac507425196270631af606/res/values-land/values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "174",
+                        "endColumns": "47",
+                        "endOffsets": "217"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "47",
+                        "endOffsets": "371"
+                    }
+                },
+                {
+                    "source": "/home/devon/Documents/signal-android-V3.1-clean/res/values-land/dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "376",
+                        "endColumns": "51",
+                        "endOffsets": "423"
+                    }
+                },
+                {
+                    "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/070af165ab0d65271a89f48570574e55/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "428",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "605"
+                    }
+                }
+            ]
+        }
+    ]
+}

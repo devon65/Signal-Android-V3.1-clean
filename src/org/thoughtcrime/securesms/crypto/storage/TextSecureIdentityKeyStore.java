@@ -3,6 +3,7 @@ package org.thoughtcrime.securesms.crypto.storage;
 import android.content.Context;
 import android.util.Log;
 
+import org.thoughtcrime.securesms.IsMITMAttackOn;
 import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
 import org.thoughtcrime.securesms.crypto.SessionUtil;
 import org.thoughtcrime.securesms.database.Address;
@@ -56,7 +57,17 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
         return false;
       }
 
-      if (!identityRecord.get().getIdentityKey().equals(identityKey)) {
+      //Devon code starts here
+      //Here we are making the condition true if the Attack is on
+      IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+      //Devon code ends here
+
+      if (!identityRecord.get().getIdentityKey().equals(identityKey)
+      //Devon code starts here
+      //Here we are making the condition true if the Attack is on
+      || (isMITMAttackOn.isAttackOn())
+      //Devon code ends here
+              ) {
         Log.w(TAG, "Replacing existing identity...");
         VerifiedStatus verifiedStatus;
 
@@ -71,6 +82,7 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
         identityDatabase.saveIdentity(signalAddress, identityKey, verifiedStatus, false, System.currentTimeMillis(), nonBlockingApproval);
         IdentityUtil.markIdentityUpdate(context, Recipient.from(context, signalAddress, true));
         SessionUtil.archiveSiblingSessions(context, address);
+
         return true;
       }
 
@@ -109,12 +121,26 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
   }
 
   private boolean isTrustedForSending(IdentityKey identityKey, Optional<IdentityRecord> identityRecord) {
+
+    //Devon code starts here
+    //Here we are returning false if the Attack is on
+
+    IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+    if (isMITMAttackOn.isAttackOn()) {
+      return false;
+    }
+
+    //Devon code ends here
+
     if (!identityRecord.isPresent()) {
       Log.w(TAG, "Nothing here, returning true...");
       return true;
     }
 
     if (!identityKey.equals(identityRecord.get().getIdentityKey())) {
+
+      //Devon code starts: marking identityRecord as default/unverified
+
       Log.w(TAG, "Identity keys don't match...");
       return false;
     }

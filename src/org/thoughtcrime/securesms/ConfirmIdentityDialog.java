@@ -93,12 +93,14 @@ public class ConfirmIdentityDialog extends AlertDialog {
       {
         @Override
         protected Void doInBackground(Void... params) {
-          synchronized (SESSION_LOCK) {
-            SignalProtocolAddress      mismatchAddress  = new SignalProtocolAddress(address.toPhoneString(), 1);
-            TextSecureIdentityKeyStore identityKeyStore = new TextSecureIdentityKeyStore(getContext());
 
-            identityKeyStore.saveIdentity(mismatchAddress, mismatch.getIdentityKey(), true);
-          }
+
+            synchronized (SESSION_LOCK) {
+                SignalProtocolAddress      mismatchAddress  = new SignalProtocolAddress(address.toPhoneString(), 1);
+                TextSecureIdentityKeyStore identityKeyStore = new TextSecureIdentityKeyStore(getContext());
+
+                identityKeyStore.saveIdentity(mismatchAddress, mismatch.getIdentityKey(), true);
+            }
 
           processMessageRecord(messageRecord);
           processPendingMessageRecords(messageRecord.getThreadId(), mismatch);

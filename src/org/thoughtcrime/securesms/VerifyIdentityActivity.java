@@ -82,6 +82,8 @@ import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.util.ViewUtil;
 import org.whispersystems.libsignal.IdentityKey;
+import org.whispersystems.libsignal.ecc.Curve;
+import org.whispersystems.libsignal.ecc.ECKeyPair;
 import org.whispersystems.libsignal.fingerprint.Fingerprint;
 import org.whispersystems.libsignal.fingerprint.FingerprintParsingException;
 import org.whispersystems.libsignal.fingerprint.FingerprintVersionMismatchException;
@@ -277,13 +279,26 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
       this.remoteNumber   = getArguments().getString(REMOTE_NUMBER);
       this.recipient      = Recipient.from(getActivity(), address, true);
       this.remoteIdentity = remoteIdentityParcelable.get();
-
       this.recipient.addListener(this);
 
       new AsyncTask<Void, Void, Fingerprint>() {
         @Override
         protected Fingerprint doInBackground(Void... params) {
-          return new NumericFingerprintGenerator(5200).createFor(localNumber, localIdentity,
+
+            //Devon code starts here
+            //Here we change the remoteIdentity that is fed into the fingerprint generator
+            //to fake a new "safety number"
+
+            IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+            if (isMITMAttackOn.isSafetyNumberChanged()) {
+                return new NumericFingerprintGenerator(5200).createFor(localNumber, localIdentity,
+                        remoteNumber, isMITMAttackOn.getFakeKey());
+            }
+
+            //Devon code ends here
+
+
+            return new NumericFingerprintGenerator(5200).createFor(localNumber, localIdentity,
                                                                  remoteNumber, remoteIdentity);
         }
 
@@ -614,6 +629,13 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
                                                                                 VerifiedStatus.DEFAULT));
 
             IdentityUtil.markIdentityVerified(getActivity(), recipient, isChecked, false);
+
+            //Devon code starts here
+            //Here we are turning off the attack mode because the user has marked the contact
+            //as verified
+            IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+            isMITMAttackOn.setIsAttackOn(false, getContext());
+            //Devon code ends here
           }
           return null;
         }

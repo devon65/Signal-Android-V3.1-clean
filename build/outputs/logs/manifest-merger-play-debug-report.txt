@@ -1,0 +1,1585 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:1-675:12
+INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:1-675:12
+INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:1-675:12
+MERGED from [com.android.support:design:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/070af165ab0d65271a89f48570574e55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:preference-v14:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/preference-v14-27.0.2.aar/0a87360e12831f8bedc17cbb6438f67f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:preference-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/preference-v7-27.0.2.aar/7d44da87529dd227a5c9da1da5883345/AndroidManifest.xml:17:1-22:12
+MERGED from [com.pnikosis:materialish-progress:1.5] /home/devon/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.5.aar/0debf5ec5c7fcd2fa5d14c323e75d5f3/AndroidManifest.xml:2:1-13:12
+MERGED from [pl.tajchert:waitingdots:0.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/waitingdots-0.1.0.aar/b497f2ce4d46eb01328f7c77ecc9f3fc/AndroidManifest.xml:2:1-16:12
+MERGED from [mobi.upod:time-duration-picker:1.1.3] /home/devon/.gradle/caches/transforms-1/files-1.1/time-duration-picker-1.1.3.aar/2664a6a92e0489a51086c3bdea2be86a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.codewaves.stickyheadergrid:stickyheadergrid:0.9.4] /home/devon/.gradle/caches/transforms-1/files-1.1/stickyheadergrid-0.9.4.aar/b9f8eec1e2e1698da6d9b54c220a12e2/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.melnykov:floatingactionbutton:1.3.0] /home/devon/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.3.0.aar/4d3407bcd79e8e43eed27d60f5e414b9/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/76186a897919d06a4464a74a75953da8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/a117a255329d33c81634b12ae7a0112b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/06a168f27ec5ce578d0260cd5100ef88/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.2.aar/bf2e811d906cbbd2db5f0824d3f0ec57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e6f561736fd252e4d386be190a15a756/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/efd4642d2b8eadbf24ccea57b9db0543/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-places:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-places-9.6.1.aar/c5afbfb426afc83e870ebd349e9285ba/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer:r2.3.1] /home/devon/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.3.1.aar/7656a9644123544b46cbc3b97dd7221a/AndroidManifest.xml:17:1-25:12
+MERGED from [org.whispersystems:jobmanager:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/jobmanager-1.0.2.aar/3fcb98a6e0b2d607101e4f0485c02b1e/AndroidManifest.xml:2:1-15:12
+MERGED from [org.whispersystems:libpastelog:1.1.2] /home/devon/.gradle/caches/transforms-1/files-1.1/libpastelog-1.1.2.aar/6f6d15a4df8facb3466ea66c91ed5778/AndroidManifest.xml:20:1-31:12
+MERGED from [org.whispersystems:signal-service-android:2.7.6] /home/devon/.gradle/caches/transforms-1/files-1.1/signal-service-android-2.7.6.aar/b05dab6e0289504361b5e5b1a002c148/AndroidManifest.xml:2:1-13:12
+MERGED from [org.whispersystems:webrtc-android:M64] /home/devon/.gradle/caches/transforms-1/files-1.1/webrtc-android-M64.aar/b7aed323b4a8a49f10529a06ed7fd33a/AndroidManifest.xml:2:1-5:12
+MERGED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:2:1-52:12
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /home/devon/.gradle/caches/transforms-1/files-1.1/stickylistheaders-2.7.0.aar/092bd3b34649717adb9472c441af1325/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jpardogo.materialtabstrip:library:1.0.9] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/e25bce0018368cb02ac9cdc49da7a21d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] /home/devon/.gradle/caches/transforms-1/files-1.1/PhotoView-2.1.3.aar/2d38dc9630a94a29e3f4fd23d8d93e5f/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:glide:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/glide-4.5.0.aar/9c86cf50d10d82f1ae9dcb7cc4f686e2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.makeramen:roundedimageview:2.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.1.0.aar/72768eccdb696bd607bc72d6833bcf2d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.soundcloud.android:android-crop:0.9.10] /home/devon/.gradle/caches/transforms-1/files-1.1/android-crop-0.9.10.aar/07ea4fd8abac507425196270631af606/AndroidManifest.xml:2:1-11:12
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/b475f084f0158b4031f29c7c0b6587d2/AndroidManifest.xml:2:1-14:12
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.6.0] /home/devon/.gradle/caches/transforms-1/files-1.1/subsampling-scale-image-view-3.6.0.aar/16bb9c1718323ee1e92251945e6e2874/AndroidManifest.xml:2:1-11:12
+MERGED from [cn.carbswang.android:NumberPickerView:1.0.9] /home/devon/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.0.9.aar/bfb828d095221a42e49228c92c4b28be/AndroidManifest.xml:2:1-11:12
+MERGED from [com.tomergoldst.android:tooltips:1.0.6] /home/devon/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.6.aar/8e2a9a62e9dfadfa13163379ca735235/AndroidManifest.xml:2:1-14:12
+MERGED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:2:1-18:12
+MERGED from [com.takisoft.fix:colorpicker:0.9.1] /home/devon/.gradle/caches/transforms-1/files-1.1/colorpicker-0.9.1.aar/b705ed98e075c4c419c753b4d69e2cb7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3-S2] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.1.3-S2.aar/4e8d9404b2511d54eb940b9675b6c4c2/AndroidManifest.xml:2:1-14:12
+MERGED from [org.signal:android-database-sqlcipher:3.5.9-S1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.9-S1.aar/ac8789ef0fab4b9f8099b74f08674e76/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/03af61c66ee30b3bfd1a380959f915ab/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/b347eab5ee1870403ea2095be699da5a/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/984bd1aa038bf0a2061dff1906881dbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/cdaa4e45697842f10fff7bdf45b0a358/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ea6982ef23c03b383e57392b93119c81/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83642e81969f7cbd443a542da9d5db19/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/c6dd1c67dab3a8779126b934786fa4a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/3ed8ba90e2b79bb898d1b47ac37ee3db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9eef931b1cf94f714c2dbe22d50288d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/87b9159d34990b115ff67d790213b964/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/4aec3c9ce6130929a50637209b191638/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/659b21d2904f8c6463071323e5290a93/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/14af35a7a3a415a25343c1211b7b3bf4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/783e7c7743474cba57745f8540f0b3d5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d28579a77006a72c08bb525e0bbcf115/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/dcf9081007ba303435e1845155018eff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.5.0.aar/2cab8914bb1e4826d1c91f2aeadb59f9/AndroidManifest.xml:2:1-11:12
+MERGED from [org.whispersystems:signal-protocol-android:2.6.2] /home/devon/.gradle/caches/transforms-1/files-1.1/signal-protocol-android-2.6.2.aar/21089fa82a929283aec0bc7f778312d8/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android:flexbox:0.3.0] /home/devon/.gradle/caches/transforms-1/files-1.1/flexbox-0.3.0.aar/d52a2bf8bb4bbdc9904cf75ac01df010/AndroidManifest.xml:17:1-27:12
+MERGED from [org.whispersystems:curve25519-android:0.4.1] /home/devon/.gradle/caches/transforms-1/files-1.1/curve25519-android-0.4.1.aar/ad960832e9ff336a698a482585767c38/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:1-675:12
+INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:1-675:12
+	package
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:4:5-41
+	android:versionName
+		INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:1-675:12
+		INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:1-675:12
+		INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:6:5-348
+INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:6:5-348
+INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:6:5-348
+MERGED from [com.android.support:design:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/070af165ab0d65271a89f48570574e55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/070af165ab0d65271a89f48570574e55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/preference-v14-27.0.2.aar/0a87360e12831f8bedc17cbb6438f67f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/preference-v14-27.0.2.aar/0a87360e12831f8bedc17cbb6438f67f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/preference-v7-27.0.2.aar/7d44da87529dd227a5c9da1da5883345/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/preference-v7-27.0.2.aar/7d44da87529dd227a5c9da1da5883345/AndroidManifest.xml:20:5-44
+MERGED from [com.pnikosis:materialish-progress:1.5] /home/devon/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.5.aar/0debf5ec5c7fcd2fa5d14c323e75d5f3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.5] /home/devon/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.5.aar/0debf5ec5c7fcd2fa5d14c323e75d5f3/AndroidManifest.xml:7:5-9:41
+MERGED from [pl.tajchert:waitingdots:0.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/waitingdots-0.1.0.aar/b497f2ce4d46eb01328f7c77ecc9f3fc/AndroidManifest.xml:7:5-9:41
+MERGED from [pl.tajchert:waitingdots:0.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/waitingdots-0.1.0.aar/b497f2ce4d46eb01328f7c77ecc9f3fc/AndroidManifest.xml:7:5-9:41
+MERGED from [mobi.upod:time-duration-picker:1.1.3] /home/devon/.gradle/caches/transforms-1/files-1.1/time-duration-picker-1.1.3.aar/2664a6a92e0489a51086c3bdea2be86a/AndroidManifest.xml:7:5-9:41
+MERGED from [mobi.upod:time-duration-picker:1.1.3] /home/devon/.gradle/caches/transforms-1/files-1.1/time-duration-picker-1.1.3.aar/2664a6a92e0489a51086c3bdea2be86a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codewaves.stickyheadergrid:stickyheadergrid:0.9.4] /home/devon/.gradle/caches/transforms-1/files-1.1/stickyheadergrid-0.9.4.aar/b9f8eec1e2e1698da6d9b54c220a12e2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.codewaves.stickyheadergrid:stickyheadergrid:0.9.4] /home/devon/.gradle/caches/transforms-1/files-1.1/stickyheadergrid-0.9.4.aar/b9f8eec1e2e1698da6d9b54c220a12e2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/AndroidManifest.xml:20:5-44
+MERGED from [com.melnykov:floatingactionbutton:1.3.0] /home/devon/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.3.0.aar/4d3407bcd79e8e43eed27d60f5e414b9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.melnykov:floatingactionbutton:1.3.0] /home/devon/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.3.0.aar/4d3407bcd79e8e43eed27d60f5e414b9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/76186a897919d06a4464a74a75953da8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/76186a897919d06a4464a74a75953da8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/a117a255329d33c81634b12ae7a0112b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/a117a255329d33c81634b12ae7a0112b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/06a168f27ec5ce578d0260cd5100ef88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/06a168f27ec5ce578d0260cd5100ef88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.2.aar/bf2e811d906cbbd2db5f0824d3f0ec57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.0.2.aar/bf2e811d906cbbd2db5f0824d3f0ec57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e6f561736fd252e4d386be190a15a756/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e6f561736fd252e4d386be190a15a756/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:exifinterface:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/efd4642d2b8eadbf24ccea57b9db0543/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/efd4642d2b8eadbf24ccea57b9db0543/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-places-9.6.1.aar/c5afbfb426afc83e870ebd349e9285ba/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-places-9.6.1.aar/c5afbfb426afc83e870ebd349e9285ba/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.exoplayer:exoplayer:r2.3.1] /home/devon/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.3.1.aar/7656a9644123544b46cbc3b97dd7221a/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:r2.3.1] /home/devon/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.3.1.aar/7656a9644123544b46cbc3b97dd7221a/AndroidManifest.xml:21:5-23:41
+MERGED from [org.whispersystems:jobmanager:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/jobmanager-1.0.2.aar/3fcb98a6e0b2d607101e4f0485c02b1e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.whispersystems:jobmanager:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/jobmanager-1.0.2.aar/3fcb98a6e0b2d607101e4f0485c02b1e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.whispersystems:libpastelog:1.1.2] /home/devon/.gradle/caches/transforms-1/files-1.1/libpastelog-1.1.2.aar/6f6d15a4df8facb3466ea66c91ed5778/AndroidManifest.xml:23:5-25:41
+MERGED from [org.whispersystems:libpastelog:1.1.2] /home/devon/.gradle/caches/transforms-1/files-1.1/libpastelog-1.1.2.aar/6f6d15a4df8facb3466ea66c91ed5778/AndroidManifest.xml:23:5-25:41
+MERGED from [org.whispersystems:signal-service-android:2.7.6] /home/devon/.gradle/caches/transforms-1/files-1.1/signal-service-android-2.7.6.aar/b05dab6e0289504361b5e5b1a002c148/AndroidManifest.xml:7:5-9:41
+MERGED from [org.whispersystems:signal-service-android:2.7.6] /home/devon/.gradle/caches/transforms-1/files-1.1/signal-service-android-2.7.6.aar/b05dab6e0289504361b5e5b1a002c148/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:7:5-9:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /home/devon/.gradle/caches/transforms-1/files-1.1/stickylistheaders-2.7.0.aar/092bd3b34649717adb9472c441af1325/AndroidManifest.xml:7:5-9:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /home/devon/.gradle/caches/transforms-1/files-1.1/stickylistheaders-2.7.0.aar/092bd3b34649717adb9472c441af1325/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jpardogo.materialtabstrip:library:1.0.9] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/e25bce0018368cb02ac9cdc49da7a21d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jpardogo.materialtabstrip:library:1.0.9] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/e25bce0018368cb02ac9cdc49da7a21d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] /home/devon/.gradle/caches/transforms-1/files-1.1/PhotoView-2.1.3.aar/2d38dc9630a94a29e3f4fd23d8d93e5f/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] /home/devon/.gradle/caches/transforms-1/files-1.1/PhotoView-2.1.3.aar/2d38dc9630a94a29e3f4fd23d8d93e5f/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bumptech.glide:glide:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/glide-4.5.0.aar/9c86cf50d10d82f1ae9dcb7cc4f686e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/glide-4.5.0.aar/9c86cf50d10d82f1ae9dcb7cc4f686e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.1.0.aar/72768eccdb696bd607bc72d6833bcf2d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/roundedimageview-2.1.0.aar/72768eccdb696bd607bc72d6833bcf2d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.soundcloud.android:android-crop:0.9.10] /home/devon/.gradle/caches/transforms-1/files-1.1/android-crop-0.9.10.aar/07ea4fd8abac507425196270631af606/AndroidManifest.xml:5:5-7:41
+MERGED from [com.soundcloud.android:android-crop:0.9.10] /home/devon/.gradle/caches/transforms-1/files-1.1/android-crop-0.9.10.aar/07ea4fd8abac507425196270631af606/AndroidManifest.xml:5:5-7:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/b475f084f0158b4031f29c7c0b6587d2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/b475f084f0158b4031f29c7c0b6587d2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.6.0] /home/devon/.gradle/caches/transforms-1/files-1.1/subsampling-scale-image-view-3.6.0.aar/16bb9c1718323ee1e92251945e6e2874/AndroidManifest.xml:7:5-9:41
+MERGED from [com.davemorrissey.labs:subsampling-scale-image-view:3.6.0] /home/devon/.gradle/caches/transforms-1/files-1.1/subsampling-scale-image-view-3.6.0.aar/16bb9c1718323ee1e92251945e6e2874/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.carbswang.android:NumberPickerView:1.0.9] /home/devon/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.0.9.aar/bfb828d095221a42e49228c92c4b28be/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.carbswang.android:NumberPickerView:1.0.9] /home/devon/.gradle/caches/transforms-1/files-1.1/NumberPickerView-1.0.9.aar/bfb828d095221a42e49228c92c4b28be/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tomergoldst.android:tooltips:1.0.6] /home/devon/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.6.aar/8e2a9a62e9dfadfa13163379ca735235/AndroidManifest.xml:8:5-10:41
+MERGED from [com.tomergoldst.android:tooltips:1.0.6] /home/devon/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.6.aar/8e2a9a62e9dfadfa13163379ca735235/AndroidManifest.xml:8:5-10:41
+MERGED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.takisoft.fix:colorpicker:0.9.1] /home/devon/.gradle/caches/transforms-1/files-1.1/colorpicker-0.9.1.aar/b705ed98e075c4c419c753b4d69e2cb7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.takisoft.fix:colorpicker:0.9.1] /home/devon/.gradle/caches/transforms-1/files-1.1/colorpicker-0.9.1.aar/b705ed98e075c4c419c753b4d69e2cb7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3-S2] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.1.3-S2.aar/4e8d9404b2511d54eb940b9675b6c4c2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3-S2] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.1.3-S2.aar/4e8d9404b2511d54eb940b9675b6c4c2/AndroidManifest.xml:8:5-10:41
+MERGED from [org.signal:android-database-sqlcipher:3.5.9-S1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.9-S1.aar/ac8789ef0fab4b9f8099b74f08674e76/AndroidManifest.xml:7:5-9:41
+MERGED from [org.signal:android-database-sqlcipher:3.5.9-S1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-database-sqlcipher-3.5.9-S1.aar/ac8789ef0fab4b9f8099b74f08674e76/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/03af61c66ee30b3bfd1a380959f915ab/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/03af61c66ee30b3bfd1a380959f915ab/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/b347eab5ee1870403ea2095be699da5a/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/b347eab5ee1870403ea2095be699da5a/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/984bd1aa038bf0a2061dff1906881dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/984bd1aa038bf0a2061dff1906881dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/cdaa4e45697842f10fff7bdf45b0a358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/cdaa4e45697842f10fff7bdf45b0a358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ea6982ef23c03b383e57392b93119c81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ea6982ef23c03b383e57392b93119c81/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83642e81969f7cbd443a542da9d5db19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/83642e81969f7cbd443a542da9d5db19/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/c6dd1c67dab3a8779126b934786fa4a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/c6dd1c67dab3a8779126b934786fa4a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/3ed8ba90e2b79bb898d1b47ac37ee3db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/3ed8ba90e2b79bb898d1b47ac37ee3db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9eef931b1cf94f714c2dbe22d50288d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/9eef931b1cf94f714c2dbe22d50288d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/87b9159d34990b115ff67d790213b964/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/87b9159d34990b115ff67d790213b964/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/4aec3c9ce6130929a50637209b191638/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/4aec3c9ce6130929a50637209b191638/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/659b21d2904f8c6463071323e5290a93/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/659b21d2904f8c6463071323e5290a93/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/14af35a7a3a415a25343c1211b7b3bf4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/14af35a7a3a415a25343c1211b7b3bf4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/783e7c7743474cba57745f8540f0b3d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/783e7c7743474cba57745f8540f0b3d5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d28579a77006a72c08bb525e0bbcf115/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d28579a77006a72c08bb525e0bbcf115/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/dcf9081007ba303435e1845155018eff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/dcf9081007ba303435e1845155018eff/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.5.0.aar/2cab8914bb1e4826d1c91f2aeadb59f9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.5.0.aar/2cab8914bb1e4826d1c91f2aeadb59f9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android:flexbox:0.3.0] /home/devon/.gradle/caches/transforms-1/files-1.1/flexbox-0.3.0.aar/d52a2bf8bb4bbdc9904cf75ac01df010/AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.3.0] /home/devon/.gradle/caches/transforms-1/files-1.1/flexbox-0.3.0.aar/d52a2bf8bb4bbdc9904cf75ac01df010/AndroidManifest.xml:23:5-25:41
+INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:6:5-348
+INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:6:5-348
+	tools:overrideLibrary
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:6:15-345
+	android:targetSdkVersion
+		INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:6:5-348
+		INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:6:5-348
+		INJECTED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml
+permission#org.thoughtcrime.securesms.ACCESS_SECRETS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:8:5-11:47
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:10:9-53
+	android:protectionLevel
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:11:9-44
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:9:9-65
+uses-feature#android.hardware.camera
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:14:9-47
+uses-feature#android.hardware.bluetooth
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:17:9-50
+uses-feature#android.hardware.location
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:20:9-49
+uses-feature#android.hardware.location.network
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:23:9-57
+uses-feature#android.hardware.location.gps
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:26:9-53
+uses-feature#android.hardware.microphone
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:29:9-51
+uses-feature#android.hardware.wifi
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:32:9-45
+uses-feature#android.hardware.portrait
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:35:9-49
+uses-feature#android.hardware.touchscreen
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:38:9-52
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:41:5-74
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:41:22-71
+uses-permission#org.thoughtcrime.securesms.ACCESS_SECRETS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:42:5-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:42:22-78
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:43:5-71
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:43:22-68
+uses-permission#android.permission.WRITE_PROFILE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:44:5-72
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:44:22-69
+uses-permission#android.permission.BROADCAST_WAP_PUSH
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:45:5-47:47
+	tools:ignore
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:47:9-44
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:46:9-61
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:48:5-72
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:48:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:49:5-73
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:49:22-70
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:50:5-70
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:50:22-67
+uses-permission#android.permission.RECEIVE_MMS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:51:5-70
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:51:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:52:5-67
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:52:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:53:5-67
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:53:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:54:5-68
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:54:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:55:5-75
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:55:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:56:5-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:56:22-78
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:57:5-72
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:57:22-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:58:5-65
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:58:22-62
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:59:5-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:59:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:60:5-79
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:60:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:61:5-71
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:61:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:62:5-80
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:62:22-77
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:63:5-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:63:22-78
+uses-permission#android.permission.READ_CALL_STATE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:64:5-74
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:64:22-71
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:67:5-73
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:67:22-70
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:68:5-72
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:68:22-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:71:5-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:71:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:72:5-66
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:72:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:73:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:73:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:74:5-79
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:74:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:75:5-68
+MERGED from [org.whispersystems:jobmanager:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/jobmanager-1.0.2.aar/3fcb98a6e0b2d607101e4f0485c02b1e/AndroidManifest.xml:11:5-68
+MERGED from [org.whispersystems:jobmanager:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/jobmanager-1.0.2.aar/3fcb98a6e0b2d607101e4f0485c02b1e/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:75:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:76:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:76:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:77:5-71
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:77:22-68
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:78:5-82
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:78:22-79
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:81:5-77
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:81:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:82:5-78
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:82:22-75
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:83:5-80
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:83:22-77
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:84:5-74
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:84:22-71
+uses-permission#android.permission.INSTALL_SHORTCUT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:87:5-75
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:87:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:90:5-76
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:90:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:91:5-76
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:91:22-73
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:94:5-72
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:94:22-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:95:5-68
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:95:22-65
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:96:5-75
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:96:22-72
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:97:5-69
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:97:22-66
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:98:5-75
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:98:22-72
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:99:5-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:99:22-78
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:100:5-95
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:100:22-92
+permission#org.thoughtcrime.securesms.permission.C2D_MESSAGE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:102:5-104:47
+	android:protectionLevel
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:104:9-44
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:103:9-73
+uses-permission#org.thoughtcrime.securesms.permission.C2D_MESSAGE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:106:5-89
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:106:22-86
+application
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:108:5-673:19
+MERGED from [com.pnikosis:materialish-progress:1.5] /home/devon/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.5.aar/0debf5ec5c7fcd2fa5d14c323e75d5f3/AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.5] /home/devon/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.5.aar/0debf5ec5c7fcd2fa5d14c323e75d5f3/AndroidManifest.xml:11:5-20
+MERGED from [pl.tajchert:waitingdots:0.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/waitingdots-0.1.0.aar/b497f2ce4d46eb01328f7c77ecc9f3fc/AndroidManifest.xml:11:5-14:19
+MERGED from [pl.tajchert:waitingdots:0.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/waitingdots-0.1.0.aar/b497f2ce4d46eb01328f7c77ecc9f3fc/AndroidManifest.xml:11:5-14:19
+MERGED from [com.melnykov:floatingactionbutton:1.3.0] /home/devon/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.3.0.aar/4d3407bcd79e8e43eed27d60f5e414b9/AndroidManifest.xml:12:5-20
+MERGED from [com.melnykov:floatingactionbutton:1.3.0] /home/devon/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.3.0.aar/4d3407bcd79e8e43eed27d60f5e414b9/AndroidManifest.xml:12:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:22:5-28:19
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.6.1.aar/1834472f8fbf33f37fc7302ce729e367/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-places:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-places-9.6.1.aar/c5afbfb426afc83e870ebd349e9285ba/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-places-9.6.1.aar/c5afbfb426afc83e870ebd349e9285ba/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:24:5-19
+MERGED from [org.whispersystems:jobmanager:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/jobmanager-1.0.2.aar/3fcb98a6e0b2d607101e4f0485c02b1e/AndroidManifest.xml:13:5-20
+MERGED from [org.whispersystems:jobmanager:1.0.2] /home/devon/.gradle/caches/transforms-1/files-1.1/jobmanager-1.0.2.aar/3fcb98a6e0b2d607101e4f0485c02b1e/AndroidManifest.xml:13:5-20
+MERGED from [org.whispersystems:libpastelog:1.1.2] /home/devon/.gradle/caches/transforms-1/files-1.1/libpastelog-1.1.2.aar/6f6d15a4df8facb3466ea66c91ed5778/AndroidManifest.xml:27:5-29:44
+MERGED from [org.whispersystems:libpastelog:1.1.2] /home/devon/.gradle/caches/transforms-1/files-1.1/libpastelog-1.1.2.aar/6f6d15a4df8facb3466ea66c91ed5778/AndroidManifest.xml:27:5-29:44
+MERGED from [org.whispersystems:signal-service-android:2.7.6] /home/devon/.gradle/caches/transforms-1/files-1.1/signal-service-android-2.7.6.aar/b05dab6e0289504361b5e5b1a002c148/AndroidManifest.xml:11:5-20
+MERGED from [org.whispersystems:signal-service-android:2.7.6] /home/devon/.gradle/caches/transforms-1/files-1.1/signal-service-android-2.7.6.aar/b05dab6e0289504361b5e5b1a002c148/AndroidManifest.xml:11:5-20
+MERGED from [com.jpardogo.materialtabstrip:library:1.0.9] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/e25bce0018368cb02ac9cdc49da7a21d/AndroidManifest.xml:9:5-20
+MERGED from [com.jpardogo.materialtabstrip:library:1.0.9] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.0.9.aar/e25bce0018368cb02ac9cdc49da7a21d/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/glide-4.5.0.aar/9c86cf50d10d82f1ae9dcb7cc4f686e2/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/glide-4.5.0.aar/9c86cf50d10d82f1ae9dcb7cc4f686e2/AndroidManifest.xml:11:5-20
+MERGED from [com.soundcloud.android:android-crop:0.9.10] /home/devon/.gradle/caches/transforms-1/files-1.1/android-crop-0.9.10.aar/07ea4fd8abac507425196270631af606/AndroidManifest.xml:9:5-47
+MERGED from [com.soundcloud.android:android-crop:0.9.10] /home/devon/.gradle/caches/transforms-1/files-1.1/android-crop-0.9.10.aar/07ea4fd8abac507425196270631af606/AndroidManifest.xml:9:5-47
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/b475f084f0158b4031f29c7c0b6587d2/AndroidManifest.xml:12:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/b475f084f0158b4031f29c7c0b6587d2/AndroidManifest.xml:12:5-20
+MERGED from [com.tomergoldst.android:tooltips:1.0.6] /home/devon/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.6.aar/8e2a9a62e9dfadfa13163379ca735235/AndroidManifest.xml:12:5-20
+MERGED from [com.tomergoldst.android:tooltips:1.0.6] /home/devon/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.6.aar/8e2a9a62e9dfadfa13163379ca735235/AndroidManifest.xml:12:5-20
+MERGED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:9:5-16:19
+MERGED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:9:5-16:19
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3-S2] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.1.3-S2.aar/4e8d9404b2511d54eb940b9675b6c4c2/AndroidManifest.xml:12:5-20
+MERGED from [com.github.dmytrodanylyk.circular-progress-button:library:1.1.3-S2] /home/devon/.gradle/caches/transforms-1/files-1.1/library-1.1.3-S2.aar/4e8d9404b2511d54eb940b9675b6c4c2/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.6.1.aar/f44d2ec5bc0f26dd470bd8bd4c246415/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/03af61c66ee30b3bfd1a380959f915ab/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/03af61c66ee30b3bfd1a380959f915ab/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/b347eab5ee1870403ea2095be699da5a/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/b347eab5ee1870403ea2095be699da5a/AndroidManifest.xml:19:5-21:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.5.0.aar/2cab8914bb1e4826d1c91f2aeadb59f9/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.5.0] /home/devon/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.5.0.aar/2cab8914bb1e4826d1c91f2aeadb59f9/AndroidManifest.xml:9:5-20
+MERGED from [org.whispersystems:curve25519-android:0.4.1] /home/devon/.gradle/caches/transforms-1/files-1.1/curve25519-android-0.4.1.aar/ad960832e9ff336a698a482585767c38/AndroidManifest.xml:5:5-20
+MERGED from [org.whispersystems:curve25519-android:0.4.1] /home/devon/.gradle/caches/transforms-1/files-1.1/curve25519-android-0.4.1.aar/ad960832e9ff336a698a482585767c38/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:115:9-35
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:112:9-41
+	android:roundIcon
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:114:9-50
+	android:largeHeap
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:113:9-33
+	android:icon
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:111:9-38
+	android:allowBackup
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:110:9-36
+		REJECTED from [pl.tajchert:waitingdots:0.1.0] /home/devon/.gradle/caches/transforms-1/files-1.1/waitingdots-0.1.0.aar/b497f2ce4d46eb01328f7c77ecc9f3fc/AndroidManifest.xml:12:9-35
+		REJECTED from [org.whispersystems:libpastelog:1.1.2] /home/devon/.gradle/caches/transforms-1/files-1.1/libpastelog-1.1.2.aar/6f6d15a4df8facb3466ea66c91ed5778/AndroidManifest.xml:28:9-35
+		REJECTED from [com.soundcloud.android:android-crop:0.9.10] /home/devon/.gradle/caches/transforms-1/files-1.1/android-crop-0.9.10.aar/07ea4fd8abac507425196270631af606/AndroidManifest.xml:9:18-44
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:116:9-53
+	tools:replace
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:117:9-44
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:109:9-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:118:9-120:71
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:120:13-68
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:119:13-58
+meta-data#com.google.android.gms.version
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:121:9-123:69
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/b347eab5ee1870403ea2095be699da5a/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/b347eab5ee1870403ea2095be699da5a/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:123:13-66
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:122:13-58
+meta-data#com.google.android.gms.car.application
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:124:9-126:59
+	android:resource
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:126:13-56
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:125:13-66
+activity#org.thoughtcrime.securesms.WebRtcCallActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:128:9-133:52
+	android:screenOrientation
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:133:13-49
+	android:excludeFromRecents
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:131:13-46
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:132:13-44
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:130:13-144
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:129:13-47
+activity#org.thoughtcrime.securesms.CountrySelectionActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:134:9-136:111
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:136:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:135:13-53
+activity#org.thoughtcrime.securesms.ImportExportActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:137:9-139:111
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:139:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:138:13-49
+activity#org.thoughtcrime.securesms.InviteActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:140:9-149:20
+	android:parentActivityName
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:143:13-67
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:145:13-54
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:142:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:144:13-61
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:141:13-43
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:146:13-148:87
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:148:17-84
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:147:17-63
+activity#org.thoughtcrime.securesms.PromptMmsActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:150:9-154:60
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:153:13-51
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:154:13-57
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:152:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:151:13-46
+activity#org.thoughtcrime.securesms.DeviceProvisioningActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:155:9-166:20
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:157:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:156:13-55
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:158:13-165:29
+action#android.intent.action.VIEW
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:159:17-69
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:159:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:161:17-76
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:161:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:162:17-78
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:162:27-75
+data
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:164:17-51
+	android:scheme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:164:23-48
+	android:mimeType
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:184:23-49
+activity#org.thoughtcrime.securesms.preferences.MmsPreferencesActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:167:9-169:111
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:169:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:168:13-63
+activity#org.thoughtcrime.securesms.ShareActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:170:9-196:20
+	android:excludeFromRecents
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:173:13-46
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:174:13-44
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:178:13-54
+	android:noHistory
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:175:13-37
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:172:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:177:13-63
+	android:taskAffinity
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:176:13-36
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:171:13-42
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:179:13-191:29
+action#android.intent.action.SEND
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:180:17-69
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:180:25-66
+meta-data#android.service.chooser.chooser_target_service
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:193:13-195:63
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:195:17-60
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:194:17-78
+activity#org.thoughtcrime.securesms.ConversationListActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:197:9-203:66
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:201:13-45
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:202:13-44
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:200:13-36
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:199:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:203:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:198:13-53
+activity-alias#org.thoughtcrime.securesms.RoutingActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:205:9-222:26
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:207:13-36
+	android:targetActivity
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:208:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:206:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:209:13-214:29
+action#android.intent.action.MAIN
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:210:17-69
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:210:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:212:17-77
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:212:27-74
+category#android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:213:17-89
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:213:27-86
+meta-data#com.sec.minimode.icon.portrait.normal
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:216:13-218:53
+	android:resource
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:218:17-50
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:217:17-69
+meta-data#com.sec.minimode.icon.landscape.normal
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:219:13-221:53
+	android:resource
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:221:17-50
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:220:17-70
+activity#org.thoughtcrime.securesms.ConversationListArchiveActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:224:9-233:20
+	android:parentActivityName
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:229:13-67
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:227:13-75
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:228:13-44
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:226:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:225:13-60
+activity#org.thoughtcrime.securesms.ConversationActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:234:9-243:20
+	android:parentActivityName
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:238:13-67
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:237:13-44
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:239:13-57
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:236:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:235:13-49
+activity#org.thoughtcrime.securesms.ConversationPopupActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:244:9-251:58
+	android:excludeFromRecents
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:247:13-46
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:248:13-44
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:251:13-55
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:246:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:250:13-63
+	android:taskAffinity
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:249:13-36
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:245:13-54
+activity#org.thoughtcrime.securesms.MessageDetailsActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:252:9-257:57
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:255:13-69
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:256:13-44
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:257:13-54
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:254:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:253:13-51
+activity#org.thoughtcrime.securesms.GroupCreateActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:258:9-261:58
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:261:13-55
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:260:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:259:13-48
+activity#org.thoughtcrime.securesms.DatabaseMigrationActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:262:9-266:86
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:265:13-44
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:264:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:266:13-83
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:263:13-54
+activity#org.thoughtcrime.securesms.DatabaseUpgradeActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:267:9-271:86
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:270:13-44
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:269:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:271:13-83
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:268:13-52
+activity#org.thoughtcrime.securesms.ExperienceUpgradeActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:272:9-276:72
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:275:13-44
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:274:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:276:13-69
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:273:13-54
+activity#org.thoughtcrime.securesms.PassphraseCreateActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:277:9-283:60
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:280:13-71
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:281:13-44
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:283:13-57
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:279:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:282:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:278:13-53
+activity#org.thoughtcrime.securesms.PassphrasePromptActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:284:9-288:65
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:287:13-44
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:286:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:288:13-62
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:285:13-53
+activity#org.thoughtcrime.securesms.NewConversationActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:289:9-293:64
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:293:13-61
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:291:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:292:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:290:13-52
+activity#org.thoughtcrime.securesms.PushContactSelectionActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:294:9-298:57
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:297:13-69
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:298:13-54
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:296:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:295:13-57
+activity#org.thoughtcrime.securesms.giph.ui.GiphyActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:299:9-303:57
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:303:13-54
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:301:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:302:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:300:13-50
+activity#org.thoughtcrime.securesms.PassphraseChangeActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:304:9-307:74
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:307:13-71
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:306:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:305:13-53
+activity#org.thoughtcrime.securesms.VerifyIdentityActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:308:9-310:111
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:310:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:309:13-51
+activity#org.thoughtcrime.securesms.ApplicationPreferencesActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:311:9-313:111
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:313:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:312:13-59
+activity#org.thoughtcrime.securesms.RegistrationActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:314:9-319:60
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:317:13-44
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:319:13-57
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:316:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:318:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:315:13-49
+activity#org.thoughtcrime.securesms.DeviceActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:320:9-323:71
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:323:13-68
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:322:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:321:13-43
+activity#org.thoughtcrime.securesms.LogSubmitActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:324:9-328:57
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:327:13-64
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:328:13-54
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:326:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:325:13-46
+activity#org.thoughtcrime.securesms.MediaPreviewActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:329:9-334:57
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:332:13-67
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:333:13-44
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:334:13-54
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:331:13-108
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:330:13-49
+activity#org.thoughtcrime.securesms.MediaOverviewActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:335:9-340:57
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:338:13-44
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:340:13-54
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:337:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:339:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:336:13-50
+activity#org.thoughtcrime.securesms.DummyActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:341:9-351:62
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:346:13-35
+	android:clearTaskOnLaunch
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:345:13-45
+	android:stateNotNeeded
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:350:13-42
+	android:excludeFromRecents
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:347:13-46
+	android:noHistory
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:349:13-37
+	android:allowTaskReparenting
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:343:13-48
+	android:alwaysRetainTaskState
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:344:13-50
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:351:13-59
+	android:finishOnTaskLaunch
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:348:13-46
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:342:13-42
+activity#org.thoughtcrime.securesms.PlayServicesProblemActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:352:9-355:64
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:354:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:355:13-61
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:353:13-56
+activity#org.thoughtcrime.securesms.SmsSendtoActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:356:9-376:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:356:19-52
+intent-filter#android.intent.action.SENDTO+android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:357:13-368:29
+action#android.intent.action.SENDTO
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:358:17-71
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:358:25-68
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:369:13-375:29
+activity#org.thoughtcrime.securesms.webrtc.VoiceCallShare
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:377:9-390:20
+	android:excludeFromRecents
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:380:13-46
+	android:launchMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:381:13-44
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:379:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:382:13-65
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:378:13-50
+activity#org.thoughtcrime.securesms.RecipientPreferenceActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:391:9-394:66
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:393:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:394:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:392:13-56
+activity#org.thoughtcrime.securesms.BlockedContactsActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:395:9-398:60
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:397:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:398:13-57
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:396:13-52
+activity#org.thoughtcrime.securesms.scribbles.ScribbleActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:399:9-403:57
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:403:13-54
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:401:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:402:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:400:13-55
+activity#org.thoughtcrime.securesms.scribbles.StickerSelectActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:404:9-407:60
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:406:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:407:13-57
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:405:13-60
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:408:9-82
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:408:19-79
+activity#org.thoughtcrime.securesms.CreateProfileActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:409:9-413:58
+	android:windowSoftInputMode
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:413:13-55
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:411:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:412:13-57
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:410:13-50
+activity#org.thoughtcrime.securesms.ClearProfileAvatarActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:414:9-425:20
+	android:label
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:418:13-65
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:416:13-108
+	android:icon
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:417:13-58
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:419:13-64
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:415:13-55
+intent-filter#android.intent.category.DEFAULT+org.thoughtcrime.securesms.action.CLEAR_PROFILE_PHOTO
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:420:13-424:29
+action#org.thoughtcrime.securesms.action.CLEAR_PROFILE_PHOTO
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:421:17-96
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:421:25-93
+activity#org.thoughtcrime.securesms.contactshare.ContactShareEditActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:426:9-429:60
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:428:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:429:13-57
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:427:13-66
+activity#org.thoughtcrime.securesms.contactshare.ContactNameEditActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:430:9-433:66
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:432:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:433:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:431:13-65
+activity#org.thoughtcrime.securesms.contactshare.SharedContactDetailsActivity
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:434:9-437:66
+	android:configChanges
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:436:13-108
+	android:theme
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:437:13-63
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:435:13-70
+service#org.thoughtcrime.securesms.service.WebRtcCallService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:439:9-441:38
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:441:13-35
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:440:13-54
+service#org.thoughtcrime.securesms.service.ApplicationMigrationService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:442:9-444:38
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:444:13-35
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:443:13-64
+service#org.thoughtcrime.securesms.service.KeyCachingService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:445:9-448:40
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:447:13-35
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:448:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:446:13-54
+service#org.thoughtcrime.securesms.service.MessageRetrievalService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:449:9-451:38
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:451:13-35
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:450:13-60
+service#org.thoughtcrime.securesms.service.QuickResponseService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:452:9-466:19
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:454:13-36
+	android:permission
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:455:13-77
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:453:13-57
+intent-filter#android.intent.action.RESPOND_VIA_MESSAGE+android.intent.category.DEFAULT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:456:13-465:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:457:17-84
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:457:25-81
+service#org.thoughtcrime.securesms.service.AccountAuthenticatorService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:467:9-477:19
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:469:13-36
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:468:13-64
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:470:13-472:29
+action#android.accounts.AccountAuthenticator
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:471:17-80
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:471:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:474:13-476:57
+	android:resource
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:476:17-54
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:475:17-69
+service#org.thoughtcrime.securesms.service.ContactsSyncAdapterService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:478:9-491:19
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:480:13-36
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:479:13-63
+intent-filter#android.content.SyncAdapter
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:481:13-483:29
+action#android.content.SyncAdapter
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:482:17-70
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:482:25-67
+meta-data#android.content.SyncAdapter
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:485:13-487:55
+	android:resource
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:487:17-52
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:486:17-59
+meta-data#android.provider.CONTACTS_STRUCTURE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:488:13-490:58
+	android:resource
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:490:17-55
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:489:17-67
+service#org.thoughtcrime.securesms.service.DirectShareService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:492:9-498:19
+	android:permission
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:494:13-80
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:493:13-55
+intent-filter#android.service.chooser.ChooserTargetService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:495:13-497:29
+action#android.service.chooser.ChooserTargetService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:496:17-87
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:496:25-84
+service#org.thoughtcrime.securesms.service.GenericForegroundService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:499:9-69
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:499:18-66
+receiver#org.thoughtcrime.securesms.gcm.GcmBroadcastReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:501:9-509:20
+	android:permission
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:503:13-73
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:502:13-53
+intent-filter#com.google.android.c2dm.intent.RECEIVE+org.thoughtcrime.securesms
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:504:13-508:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:505:17-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:505:25-78
+category#org.thoughtcrime.securesms
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:507:17-71
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:507:27-68
+receiver#org.thoughtcrime.securesms.service.SmsListener
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:510:9-521:20
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:512:13-35
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:513:13-36
+	android:permission
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:514:13-66
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:511:13-48
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:515:13-517:29
+	android:priority
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:515:28-51
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:516:17-82
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:516:25-79
+intent-filter#android.provider.Telephony.SMS_DELIVER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:518:13-520:29
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:519:17-81
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:519:25-78
+receiver#org.thoughtcrime.securesms.service.SmsDeliveryListener
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:522:9-528:20
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:524:13-36
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:523:13-56
+intent-filter#org.thoughtcrime.securesms.services.MESSAGE_SENT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:525:13-527:29
+action#org.thoughtcrime.securesms.services.MESSAGE_SENT
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:526:17-91
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:526:25-88
+receiver#org.thoughtcrime.securesms.service.MmsListener
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:529:9-544:20
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:531:13-35
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:532:13-36
+	android:permission
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:533:13-71
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:530:13-48
+intent-filter#android.provider.Telephony.WAP_PUSH_RECEIVED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:534:13-538:29
+	android:priority
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:534:28-51
+action#android.provider.Telephony.WAP_PUSH_RECEIVED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:535:17-87
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:535:25-84
+intent-filter#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:539:13-543:29
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:540:17-86
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:540:25-83
+receiver#org.thoughtcrime.securesms.notifications.MarkReadReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:545:9-552:20
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:547:13-35
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:548:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:546:13-59
+intent-filter#org.thoughtcrime.securesms.notifications.CLEAR
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:549:13-551:29
+action#org.thoughtcrime.securesms.notifications.CLEAR
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:550:17-89
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:550:25-86
+receiver#org.thoughtcrime.securesms.notifications.RemoteReplyReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:553:9-560:20
+	android:enabled
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:555:13-35
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:556:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:554:13-62
+intent-filter#org.thoughtcrime.securesms.notifications.WEAR_REPLY
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:557:13-559:29
+action#org.thoughtcrime.securesms.notifications.WEAR_REPLY
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:558:17-94
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:558:25-91
+receiver#org.thoughtcrime.securesms.notifications.AndroidAutoHeardReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:561:9-567:20
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:563:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:562:13-67
+intent-filter#org.thoughtcrime.securesms.notifications.ANDROID_AUTO_HEARD
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:564:13-566:29
+action#org.thoughtcrime.securesms.notifications.ANDROID_AUTO_HEARD
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:565:17-102
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:565:25-99
+receiver#org.thoughtcrime.securesms.notifications.AndroidAutoReplyReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:568:9-574:20
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:570:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:569:13-67
+intent-filter#org.thoughtcrime.securesms.notifications.ANDROID_AUTO_REPLY
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:571:13-573:29
+action#org.thoughtcrime.securesms.notifications.ANDROID_AUTO_REPLY
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:572:17-102
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:572:25-99
+provider#org.thoughtcrime.securesms.providers.PartProvider
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:576:9-580:50
+	android:grantUriPermissions
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:580:13-47
+	android:authorities
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:578:13-70
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:579:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:577:13-51
+provider#org.thoughtcrime.securesms.providers.MmsBodyProvider
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:581:9-585:50
+	android:grantUriPermissions
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:585:13-47
+	android:authorities
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:583:13-74
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:584:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:582:13-54
+provider#android.support.v4.content.FileProvider
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:586:9-594:20
+	android:grantUriPermissions
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:590:13-47
+	android:authorities
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:588:13-74
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:589:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:587:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:591:13-593:63
+	android:resource
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:593:17-60
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:592:17-67
+receiver#org.thoughtcrime.securesms.service.BootReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:596:9-601:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:596:19-55
+intent-filter#android.intent.action.BOOT_COMPLETED+org.thoughtcrime.securesms.RESTART
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:597:13-600:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:598:17-79
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:598:25-76
+action#org.thoughtcrime.securesms.RESTART
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:599:17-77
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:599:25-74
+receiver#org.thoughtcrime.securesms.service.DirectoryRefreshListener
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:602:9-606:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:602:19-67
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:603:13-605:29
+receiver#org.thoughtcrime.securesms.service.RotateSignedPreKeyListener
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:607:9-611:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:607:19-69
+receiver#org.thoughtcrime.securesms.service.LocalBackupListener
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:612:9-616:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:612:19-62
+receiver#org.thoughtcrime.securesms.service.PersistentConnectionBootListener
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:617:9-621:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:617:19-75
+receiver#org.thoughtcrime.securesms.notifications.MessageNotifier$ReminderReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:622:9-626:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:622:19-81
+intent-filter#org.thoughtcrime.securesms.MessageNotifier.REMINDER_ACTION
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:623:13-625:29
+action#org.thoughtcrime.securesms.MessageNotifier.REMINDER_ACTION
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:624:17-101
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:624:25-98
+receiver#org.thoughtcrime.securesms.notifications.DeleteNotificationReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:627:9-631:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:627:19-75
+intent-filter#org.thoughtcrime.securesms.DELETE_NOTIFICATION
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:628:13-630:29
+action#org.thoughtcrime.securesms.DELETE_NOTIFICATION
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:629:17-89
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:629:25-86
+receiver#org.thoughtcrime.securesms.ExperienceUpgradeActivity$AppUpgradeReceiver
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:632:9-641:20
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:632:19-79
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:633:13-637:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:634:17-84
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:634:25-81
+intent-filter#org.thoughtcrime.securesms.ExperienceUpgradeActivity.DISMISS_ACTION
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:638:13-640:29
+action#org.thoughtcrime.securesms.ExperienceUpgradeActivity.DISMISS_ACTION
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:639:17-110
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:639:25-107
+receiver#org.thoughtcrime.securesms.service.PanicResponderListener
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:642:9-648:20
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:644:13-36
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:643:13-59
+intent-filter#info.guardianproject.panic.action.TRIGGER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:645:13-647:29
+action#info.guardianproject.panic.action.TRIGGER
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:646:17-84
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:646:25-81
+uses-library#com.sec.android.app.multiwindow
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:650:9-652:40
+	android:required
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:652:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:651:13-59
+meta-data#com.sec.android.support.multiwindow
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:654:9-656:36
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:656:13-33
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:655:13-63
+meta-data#com.sec.android.multiwindow.DEFAULT_SIZE_W
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:657:9-659:40
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:659:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:658:13-70
+meta-data#com.sec.android.multiwindow.DEFAULT_SIZE_H
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:660:9-662:40
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:662:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:661:13-70
+meta-data#com.sec.android.multiwindow.MINIMUM_SIZE_W
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:663:9-665:40
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:665:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:664:13-70
+meta-data#com.sec.android.multiwindow.MINIMUM_SIZE_H
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:666:9-668:40
+	android:value
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:668:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:667:13-70
+service#org.thoughtcrime.securesms.ManInMiddleService
+ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:670:9-672:48
+	android:exported
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:672:13-37
+	android:name
+		ADDED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:671:13-47
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/devon/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/a24432138cbef7a304440840cf127e52/AndroidManifest.xml:24:13-83
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.1.aar/28065f5101ab5ec9ae0b28ae016f1ce4/AndroidManifest.xml:21:52-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/devon/Documents/signal-android-V3.1-clean/AndroidManifest.xml:2:1-675:12 reason: org.whispersystems.libwebrtc_android requested WRITE_EXTERNAL_STORAGE
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.16] /home/devon/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.16.aar/b151fe7d774b21058703d778a066a85a/AndroidManifest.xml:50:22-86
+provider#com.klinker.android.send_message.MmsFileProvider
+ADDED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:10:9-15:50
+	android:grantUriPermissions
+		ADDED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:15:13-47
+	android:enabled
+		ADDED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:13:13-35
+	android:authorities
+		ADDED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:12:13-67
+	android:exported
+		ADDED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.klinkerapps:android-smsmms:4.0.1] /home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/AndroidManifest.xml:11:13-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] /home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/AndroidManifest.xml:19:19-85
