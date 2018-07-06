@@ -134,22 +134,22 @@ public final class R {
         public static final int share_intent_row = 0x7f0b00e0;
     }
     public static final class string {
-        public static final int app_name = 0x7f0f0256;
-        public static final int log_submit_activity__button_compose_email = 0x7f0f0337;
-        public static final int log_submit_activity__button_dont_submit = 0x7f0f0338;
-        public static final int log_submit_activity__button_got_it = 0x7f0f0339;
-        public static final int log_submit_activity__button_submit = 0x7f0f033a;
-        public static final int log_submit_activity__choose_email_app = 0x7f0f033b;
-        public static final int log_submit_activity__copied_to_clipboard = 0x7f0f033c;
-        public static final int log_submit_activity__copy_this_url_and_add_it_to_your_issue = 0x7f0f033d;
-        public static final int log_submit_activity__loading_logs = 0x7f0f033e;
-        public static final int log_submit_activity__network_failure = 0x7f0f0340;
-        public static final int log_submit_activity__please_review_this_log_from_my_app = 0x7f0f0342;
-        public static final int log_submit_activity__submitting = 0x7f0f0343;
-        public static final int log_submit_activity__success = 0x7f0f0344;
-        public static final int log_submit_activity__this_log_will_be_posted_online = 0x7f0f0346;
-        public static final int log_submit_activity__uploading_logs = 0x7f0f0347;
-        public static final int status_bar_notification_info_overflow = 0x7f0f041f;
+        public static final int app_name = 0x7f0f0257;
+        public static final int log_submit_activity__button_compose_email = 0x7f0f0338;
+        public static final int log_submit_activity__button_dont_submit = 0x7f0f0339;
+        public static final int log_submit_activity__button_got_it = 0x7f0f033a;
+        public static final int log_submit_activity__button_submit = 0x7f0f033b;
+        public static final int log_submit_activity__choose_email_app = 0x7f0f033c;
+        public static final int log_submit_activity__copied_to_clipboard = 0x7f0f033d;
+        public static final int log_submit_activity__copy_this_url_and_add_it_to_your_issue = 0x7f0f033e;
+        public static final int log_submit_activity__loading_logs = 0x7f0f033f;
+        public static final int log_submit_activity__network_failure = 0x7f0f0341;
+        public static final int log_submit_activity__please_review_this_log_from_my_app = 0x7f0f0343;
+        public static final int log_submit_activity__submitting = 0x7f0f0344;
+        public static final int log_submit_activity__success = 0x7f0f0345;
+        public static final int log_submit_activity__this_log_will_be_posted_online = 0x7f0f0347;
+        public static final int log_submit_activity__uploading_logs = 0x7f0f0348;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0420;
     }
     public static final class style {
         public static final int TextAppearance_Compat_Notification = 0x7f10013e;

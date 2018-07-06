@@ -2,44 +2,52 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1530221895729"
+    timestamp="1530843224246"
     token="1183917305228132590"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="4748" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="9" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
         location="/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/split-apk/play/debug/slices/directories.apk"
         type="SPLIT" />
-    <artifact
-        location="/home/devon/Documents/signal-android-V3.1-clean/build/outputs/apk/play/debug/Signal-play-debug-4.20.7.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1530221895729"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="COMPATIBLE"
+        timestamp="1530842583919"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/split-apk/play/debug/slices/directories.apk"
             type="SPLIT" />
         <artifact
             location="/home/devon/Documents/signal-android-V3.1-clean/build/outputs/apk/play/debug/Signal-play-debug-4.20.7.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1530843224246"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/split-apk/play/debug/slices/directories.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

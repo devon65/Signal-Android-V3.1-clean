@@ -27,16 +27,16 @@ public final class R {
         public static final int repeat = 0x7f090251;
     }
     public static final class string {
-        public static final int define_roundedimageview = 0x7f0f02f6;
-        public static final int library_roundedimageview_author = 0x7f0f032c;
-        public static final int library_roundedimageview_authorWebsite = 0x7f0f032d;
-        public static final int library_roundedimageview_isOpenSource = 0x7f0f032e;
-        public static final int library_roundedimageview_libraryDescription = 0x7f0f032f;
-        public static final int library_roundedimageview_libraryName = 0x7f0f0330;
-        public static final int library_roundedimageview_libraryVersion = 0x7f0f0331;
-        public static final int library_roundedimageview_libraryWebsite = 0x7f0f0332;
-        public static final int library_roundedimageview_licenseId = 0x7f0f0333;
-        public static final int library_roundedimageview_repositoryLink = 0x7f0f0334;
+        public static final int define_roundedimageview = 0x7f0f02f7;
+        public static final int library_roundedimageview_author = 0x7f0f032d;
+        public static final int library_roundedimageview_authorWebsite = 0x7f0f032e;
+        public static final int library_roundedimageview_isOpenSource = 0x7f0f032f;
+        public static final int library_roundedimageview_libraryDescription = 0x7f0f0330;
+        public static final int library_roundedimageview_libraryName = 0x7f0f0331;
+        public static final int library_roundedimageview_libraryVersion = 0x7f0f0332;
+        public static final int library_roundedimageview_libraryWebsite = 0x7f0f0333;
+        public static final int library_roundedimageview_licenseId = 0x7f0f0334;
+        public static final int library_roundedimageview_repositoryLink = 0x7f0f0335;
     }
     public static final class styleable {
         public static final int[] RoundedImageView = { 0x0101011d, 0x7f04023e, 0x7f04023f, 0x7f040240, 0x7f040241, 0x7f040242, 0x7f040243, 0x7f040244, 0x7f040245, 0x7f040246, 0x7f040247, 0x7f040248, 0x7f040249 };

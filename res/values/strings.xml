@@ -84,9 +84,25 @@
     <string name="ClearProfileActivity_remove_profile_photo">Remove profile photo?</string>
 
     <!-- ConfirmIdentityDialog -->
+
+
+
+    <!-- Devon code starts: commenting out next line and then adding new text -->
+
+    <!--
     <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Your safety number with %1$s has changed. This could either mean that someone is trying to intercept your communication, or that %2$s simply reinstalled Signal.</string>
     <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">You may wish to verify your safety number with this contact.</string>
     <string name="ConfirmIdentityDialog_accept">Accept</string>
+     -->
+
+    <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">The security of your conversation with %1$s is no longer verified. This could either mean that someone is trying to intercept your communication, or that %2$s simply reinstalled Signal. Please verify your shared passcode with %1$s.</string>
+    <string name="ConfirmIdentityDialog_accept">Verify Now</string>
+    <string name="ConfirmIdentityDialog_verify_later">Verify Later</string>
+
+
+    <!-- Devon code ends -->
+
+
 
     <!-- ContactsCursorLoader -->
     <string name="ContactsCursorLoader_recent_chats">Recent chats</string>

@@ -11,24 +11,24 @@ public final class R {
         public static final int ic_alert = 0x7f0800ca;
     }
     public static final class string {
-        public static final int auto_select_apn = 0x7f0f0283;
-        public static final int auto_select_failed = 0x7f0f0284;
-        public static final int auto_select_multiple_apns = 0x7f0f0285;
-        public static final int dl_failure_notification = 0x7f0f02fc;
-        public static final int download_later = 0x7f0f02fd;
-        public static final int error = 0x7f0f02ff;
-        public static final int invalid_destination = 0x7f0f0319;
-        public static final int message_delivered = 0x7f0f034f;
-        public static final int message_not_delivered = 0x7f0f0358;
-        public static final int message_queued = 0x7f0f0359;
-        public static final int no_apn = 0x7f0f035f;
-        public static final int no_subject = 0x7f0f0360;
-        public static final int ok = 0x7f0f0361;
-        public static final int service_message_not_found = 0x7f0f041c;
-        public static final int service_network_problem = 0x7f0f041d;
-        public static final int service_not_activated = 0x7f0f041e;
-        public static final int unknown_sender = 0x7f0f042b;
-        public static final int write_settings_permission = 0x7f0f043b;
+        public static final int auto_select_apn = 0x7f0f0284;
+        public static final int auto_select_failed = 0x7f0f0285;
+        public static final int auto_select_multiple_apns = 0x7f0f0286;
+        public static final int dl_failure_notification = 0x7f0f02fd;
+        public static final int download_later = 0x7f0f02fe;
+        public static final int error = 0x7f0f0300;
+        public static final int invalid_destination = 0x7f0f031a;
+        public static final int message_delivered = 0x7f0f0350;
+        public static final int message_not_delivered = 0x7f0f0359;
+        public static final int message_queued = 0x7f0f035a;
+        public static final int no_apn = 0x7f0f0360;
+        public static final int no_subject = 0x7f0f0361;
+        public static final int ok = 0x7f0f0362;
+        public static final int service_message_not_found = 0x7f0f041d;
+        public static final int service_network_problem = 0x7f0f041e;
+        public static final int service_not_activated = 0x7f0f041f;
+        public static final int unknown_sender = 0x7f0f042c;
+        public static final int write_settings_permission = 0x7f0f043c;
     }
     public static final class xml {
         public static final int apns = 0x7f130000;

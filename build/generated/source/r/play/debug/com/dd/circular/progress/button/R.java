@@ -43,16 +43,16 @@ public final class R {
         public static final int cpb_background = 0x7f080092;
     }
     public static final class string {
-        public static final int define_circularprogressbutton = 0x7f0f02f5;
-        public static final int library_circularprogressbutton_author = 0x7f0f0323;
-        public static final int library_circularprogressbutton_authorWebsite = 0x7f0f0324;
-        public static final int library_circularprogressbutton_isOpenSource = 0x7f0f0325;
-        public static final int library_circularprogressbutton_libraryDescription = 0x7f0f0326;
-        public static final int library_circularprogressbutton_libraryName = 0x7f0f0327;
-        public static final int library_circularprogressbutton_libraryVersion = 0x7f0f0328;
-        public static final int library_circularprogressbutton_libraryWebsite = 0x7f0f0329;
-        public static final int library_circularprogressbutton_licenseId = 0x7f0f032a;
-        public static final int library_circularprogressbutton_repositoryLink = 0x7f0f032b;
+        public static final int define_circularprogressbutton = 0x7f0f02f6;
+        public static final int library_circularprogressbutton_author = 0x7f0f0324;
+        public static final int library_circularprogressbutton_authorWebsite = 0x7f0f0325;
+        public static final int library_circularprogressbutton_isOpenSource = 0x7f0f0326;
+        public static final int library_circularprogressbutton_libraryDescription = 0x7f0f0327;
+        public static final int library_circularprogressbutton_libraryName = 0x7f0f0328;
+        public static final int library_circularprogressbutton_libraryVersion = 0x7f0f0329;
+        public static final int library_circularprogressbutton_libraryWebsite = 0x7f0f032a;
+        public static final int library_circularprogressbutton_licenseId = 0x7f0f032b;
+        public static final int library_circularprogressbutton_repositoryLink = 0x7f0f032c;
     }
     public static final class styleable {
         public static final int[] CircularProgressButton = { 0x7f0400c6, 0x7f0400c7, 0x7f0400c8, 0x7f0400c9, 0x7f0400ca, 0x7f0400cb, 0x7f0400cc, 0x7f0400cd, 0x7f0400ce, 0x7f0400cf, 0x7f0400d0, 0x7f0400d1, 0x7f0400d2, 0x7f0400d3 };

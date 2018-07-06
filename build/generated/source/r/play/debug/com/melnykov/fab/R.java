@@ -34,16 +34,16 @@ public final class R {
         public static final int normal = 0x7f0901db;
     }
     public static final class string {
-        public static final int define_FloatingActionButton = 0x7f0f02f4;
-        public static final int library_FloatingActionButton_author = 0x7f0f031a;
-        public static final int library_FloatingActionButton_authorWebsite = 0x7f0f031b;
-        public static final int library_FloatingActionButton_isOpenSource = 0x7f0f031c;
-        public static final int library_FloatingActionButton_libraryDescription = 0x7f0f031d;
-        public static final int library_FloatingActionButton_libraryName = 0x7f0f031e;
-        public static final int library_FloatingActionButton_libraryVersion = 0x7f0f031f;
-        public static final int library_FloatingActionButton_libraryWebsite = 0x7f0f0320;
-        public static final int library_FloatingActionButton_licenseId = 0x7f0f0321;
-        public static final int library_FloatingActionButton_repositoryLink = 0x7f0f0322;
+        public static final int define_FloatingActionButton = 0x7f0f02f5;
+        public static final int library_FloatingActionButton_author = 0x7f0f031b;
+        public static final int library_FloatingActionButton_authorWebsite = 0x7f0f031c;
+        public static final int library_FloatingActionButton_isOpenSource = 0x7f0f031d;
+        public static final int library_FloatingActionButton_libraryDescription = 0x7f0f031e;
+        public static final int library_FloatingActionButton_libraryName = 0x7f0f031f;
+        public static final int library_FloatingActionButton_libraryVersion = 0x7f0f0320;
+        public static final int library_FloatingActionButton_libraryWebsite = 0x7f0f0321;
+        public static final int library_FloatingActionButton_licenseId = 0x7f0f0322;
+        public static final int library_FloatingActionButton_repositoryLink = 0x7f0f0323;
     }
     public static final class styleable {
         public static final int[] FloatingActionButton = { 0x7f040040, 0x7f040042, 0x7f04004a, 0x7f0400fe, 0x7f04011e, 0x7f040120, 0x7f040121, 0x7f040122, 0x7f040123, 0x7f040124, 0x7f040125, 0x7f040219, 0x7f04023d, 0x7f0402db };

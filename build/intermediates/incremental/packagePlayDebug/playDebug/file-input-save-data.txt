@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jun 28 15:35:55 MDT 2018
+#Thu Jul 05 20:03:27 MDT 2018
 20.base=/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/assets/play/debug
 143.base=/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/assets/play/debug
 237.path=stickers/animals/clown-fish.png

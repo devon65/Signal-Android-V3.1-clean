@@ -60,13 +60,13 @@ public final class R {
         public static final int exo_simple_player_view = 0x7f0b006e;
     }
     public static final class string {
-        public static final int exo_controls_fastforward_description = 0x7f0f0300;
-        public static final int exo_controls_next_description = 0x7f0f0301;
-        public static final int exo_controls_pause_description = 0x7f0f0302;
-        public static final int exo_controls_play_description = 0x7f0f0303;
-        public static final int exo_controls_previous_description = 0x7f0f0304;
-        public static final int exo_controls_rewind_description = 0x7f0f0305;
-        public static final int exo_controls_stop_description = 0x7f0f0306;
+        public static final int exo_controls_fastforward_description = 0x7f0f0301;
+        public static final int exo_controls_next_description = 0x7f0f0302;
+        public static final int exo_controls_pause_description = 0x7f0f0303;
+        public static final int exo_controls_play_description = 0x7f0f0304;
+        public static final int exo_controls_previous_description = 0x7f0f0305;
+        public static final int exo_controls_rewind_description = 0x7f0f0306;
+        public static final int exo_controls_stop_description = 0x7f0f0307;
     }
     public static final class style {
         public static final int ExoMediaButton = 0x7f1000be;
