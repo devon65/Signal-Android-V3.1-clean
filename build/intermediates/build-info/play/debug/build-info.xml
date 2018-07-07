@@ -2,30 +2,37 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1530909591084"
+    timestamp="1530922854689"
     token="1183917305228132590"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="10176" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="182" />
     <task
         name="verifier"
-        duration="0" />
+        duration="32" />
+
+    <artifact
+        location="/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/split-apk/play/debug/slices/directories.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/devon/Documents/signal-android-V3.1-clean/build/outputs/apk/play/debug/Signal-play-debug-4.20.7.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1530901901949"
+        timestamp="1530922854689"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/split-apk/play/debug/slices/directories.apk"
@@ -34,18 +41,5 @@
             location="/home/devon/Documents/signal-android-V3.1-clean/build/outputs/apk/play/debug/Signal-play-debug-4.20.7.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1530905826035"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/split-apk/play/debug/slices/directories.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1530909591084"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

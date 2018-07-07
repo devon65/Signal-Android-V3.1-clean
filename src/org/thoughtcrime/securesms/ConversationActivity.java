@@ -918,7 +918,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     if (message == null) return;
 
     //Devon newAuth code starts: commenting out the old "UnverifiedSendDialog" to replace with the new standard dialog
-    /*
+
     //noinspection CodeBlock2Expr
     new UnverifiedSendDialog(this, message, unverifiedRecords, () -> {
       initializeIdentityRecords().addListener(new ListenableFuture.Listener<Boolean>() {
@@ -932,9 +932,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
           throw new AssertionError(e);
         }
       });
-    }).show();*/
+    }).show();
 
-    new ConfirmIdentityDialogNew(ConversationActivity.this, messageRecord, mismatches.get(0)).show();
+    //new ConfirmIdentityDialogNew(ConversationActivity.this, messageRecord, mismatches.get(0)).show();
 
     //Devon code ends
   }
