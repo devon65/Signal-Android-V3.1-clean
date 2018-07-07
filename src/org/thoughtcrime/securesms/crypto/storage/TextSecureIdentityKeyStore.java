@@ -71,13 +71,21 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
         Log.w(TAG, "Replacing existing identity...");
         VerifiedStatus verifiedStatus;
 
-        if (identityRecord.get().getVerifiedStatus() == VerifiedStatus.VERIFIED ||
+        //Devon newAuth code starts: commenting out if-else statement and making all contacts marked as unverified
+        //This change makes the blue banner show up for all users, whether their friends are previously
+        //marked as Verified or not
+
+        /*if (identityRecord.get().getVerifiedStatus() == VerifiedStatus.VERIFIED ||
             identityRecord.get().getVerifiedStatus() == VerifiedStatus.UNVERIFIED)
         {
           verifiedStatus = VerifiedStatus.UNVERIFIED;
         } else {
           verifiedStatus = VerifiedStatus.DEFAULT;
-        }
+        }*/
+
+        verifiedStatus = VerifiedStatus.UNVERIFIED;
+
+        //Devon code ends
 
         identityDatabase.saveIdentity(signalAddress, identityKey, verifiedStatus, false, System.currentTimeMillis(), nonBlockingApproval);
         IdentityUtil.markIdentityUpdate(context, Recipient.from(context, signalAddress, true));
@@ -138,9 +146,6 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
     }
 
     if (!identityKey.equals(identityRecord.get().getIdentityKey())) {
-
-      //Devon code starts: marking identityRecord as default/unverified
-
       Log.w(TAG, "Identity keys don't match...");
       return false;
     }

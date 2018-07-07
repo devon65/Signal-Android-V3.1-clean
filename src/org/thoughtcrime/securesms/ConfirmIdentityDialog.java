@@ -49,24 +49,18 @@ public class ConfirmIdentityDialog extends AlertDialog {
       Recipient       recipient       = Recipient.from(context, mismatch.getAddress(), false);
       String          name            = recipient.toShortString();
       String          introduction    = String.format(context.getString(R.string.ConfirmIdentityDialog_your_safety_number_with_s_has_changed), name, name);
+      SpannableString spannableString = new SpannableString(introduction + " " +
+                                                            context.getString(R.string.ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact));
 
-      //Devon code starts: commenting out the next line and adding new code
-      //SpannableString spannableString = new SpannableString(introduction + " " +
-      //                                                      context.getString(R.string.ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact));
-      //spannableString.setSpan(new VerifySpan(context, mismatch),
-      //                        introduction.length()+1, spannableString.length(),
-      //                        Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-
-      SpannableString spannableString = new SpannableString(introduction);
-
-      //Devon code ends
-
+      spannableString.setSpan(new VerifySpan(context, mismatch),
+                              introduction.length()+1, spannableString.length(),
+                              Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
       setTitle(name);
       setMessage(spannableString);
 
       setButton(AlertDialog.BUTTON_POSITIVE, context.getString(R.string.ConfirmIdentityDialog_accept), new AcceptListener(messageRecord, mismatch, recipient.getAddress()));
-      setButton(AlertDialog.BUTTON_NEGATIVE, context.getString(R.string.ConfirmIdentityDialog_verify_later),               new CancelListener());
+      setButton(AlertDialog.BUTTON_NEGATIVE, context.getString(android.R.string.cancel),               new CancelListener());
   }
 
   @Override

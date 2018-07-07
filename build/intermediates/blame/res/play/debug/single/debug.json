@@ -48,16 +48,16 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/quick_camera_front.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-v21_abc_edit_text_material.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_delete_white_24dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_delete_white_24dp.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_select_all_white_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_select_all_white_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_delete_white_24dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_delete_white_24dp.png"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_archive_white_24dp.png.flat",
@@ -80,12 +80,12 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_signal_grey_24dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_signal_grey_24dp.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_text_fields_white_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_text_fields_white_24dp.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_signal_grey_24dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_signal_grey_24dp.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -116,12 +116,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/quick_camera_rear.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_volume_up_dark.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_volume_up_dark.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_contacts_white_48dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_contacts_white_48dp.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_volume_up_dark.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_volume_up_dark.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_keyboard_grey600_24dp.png.flat",
@@ -144,12 +144,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_block_white_18dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_emoji_activity_activated_light.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_emoji_activity_activated_light.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_emoji_emoticons_activated_dark.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_emoji_emoticons_activated_dark.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_emoji_activity_activated_light.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_emoji_activity_activated_light.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_lock_white_18dp.png.flat",
@@ -196,36 +196,36 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/quick_camera_rear.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/anim_fade_scale_in.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/anim/fade_scale_in.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_play_arrow_white_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_play_arrow_white_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_mic_white_48dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_mic_white_48dp.png"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/anim_fade_scale_in.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/anim/fade_scale_in.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_mic_white_48dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_mic_white_48dp.png"
+    },
+    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/xml_contactsformat.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/xml/contactsformat.xml"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_permissions_rationale_dialog.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/permissions_rationale_dialog.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_video_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/video_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_permissions_rationale_dialog.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/permissions_rationale_dialog.xml"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/xml_contactsformat.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/xml/contactsformat.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_emoji_foods_activated_dark.png.flat",
@@ -304,12 +304,12 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.6.aar/8e2a9a62e9dfadfa13163379ca735235/res/drawable-xxhdpi-v4/tooltip_arrow_down.9.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_pets_white_24dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_pets_white_24dp.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_keyboard_arrow_down_white_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_keyboard_arrow_down_white_24dp.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_pets_white_24dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_pets_white_24dp.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_pets_white_24dp.png.flat",
@@ -332,16 +332,16 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/time-duration-picker-1.1.3.aar/2664a6a92e0489a51086c3bdea2be86a/res/drawable-xhdpi-v4/ic_backspace_light.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_share_intent_row.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/libpastelog-1.1.2.aar/6f6d15a4df8facb3466ea66c91ed5778/res/layout/share_intent_row.xml"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_conversation_item_received_document.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_item_received_document.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_icon.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/icon.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_conversation_item_received_document.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_item_received_document.xml"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_share_intent_row.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/libpastelog-1.1.2.aar/6f6d15a4df8facb3466ea66c91ed5778/res/layout/share_intent_row.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/color-v23_abc_btn_colored_borderless_text_material.xml.flat",
@@ -428,12 +428,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_keyboard_arrow_down_white_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/raw_webrtc_disconnected.mp3.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/raw/webrtc_disconnected.mp3"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_focused.9.png.flat",
@@ -532,12 +532,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/quick_camera_hide.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_no_contacts.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/no_contacts.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_emoji_nature_activated_light.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_emoji_nature_activated_light.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_no_contacts.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/no_contacts.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/anim_animation_toggle_in.xml.flat",
@@ -640,12 +640,12 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/xml-mcc418-mnc020_mms_config.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/res/xml-mcc418-mnc020/mms_config.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/xml-mcc418-mnc020_mms_config.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/res/xml-mcc418-mnc020/mms_config.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -708,28 +708,28 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_lock_white_48dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable_color_picker_check_tick.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/colorpicker-0.9.1.aar/b705ed98e075c4c419c753b4d69e2cb7/res/drawable/color_picker_check_tick.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_lock_white_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_lock_white_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/070af165ab0d65271a89f48570574e55/res/drawable-mdpi-v4/design_ic_visibility_off.png"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable_color_picker_check_tick.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/colorpicker-0.9.1.aar/b705ed98e075c4c419c753b4d69e2cb7/res/drawable/color_picker_check_tick.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_scribble_select_sticker_activity.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/scribble_select_sticker_activity.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_warning_dark.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_warning_dark.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_scribble_select_sticker_activity.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/scribble_select_sticker_activity.xml"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/070af165ab0d65271a89f48570574e55/res/drawable-mdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_close_grey600_32dp.png.flat",
@@ -756,28 +756,28 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_dashboard_white_24dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_dashboard_white_24dp.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_dashboard_white_24dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_dashboard_white_24dp.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_emoji_emoticons_activated_light.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_emoji_emoticons_activated_light.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_call_missed_grey600_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_call_missed_grey600_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_emoji_emoticons_activated_light.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_emoji_emoticons_activated_light.png"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_redphone_ic_lockscreen_decline_activated.png.flat",
@@ -816,12 +816,12 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/070af165ab0d65271a89f48570574e55/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable_preference_list_divider_material.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/preference-v14-27.0.2.aar/0a87360e12831f8bedc17cbb6438f67f/res/drawable/preference_list_divider_material.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable_preference_list_divider_material.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/preference-v14-27.0.2.aar/0a87360e12831f8bedc17cbb6438f67f/res/drawable/preference_list_divider_material.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_tag_faces_white_24dp.png.flat",
@@ -836,24 +836,24 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_scroll_down.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_scroll_down.png"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_send_push.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_send_push.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_expiration_timer_menu.xml.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/expiration_timer_menu.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_send_push.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_send_push.png"
-    },
-    {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_headset_white_24dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_headset_white_24dp.png"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_scroll_down.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_scroll_down.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/xml-mcc302-mnc270_mms_config.xml.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/res/xml-mcc302-mnc270/mms_config.xml"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_headset_white_24dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_headset_white_24dp.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
@@ -940,12 +940,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_phone_grey600_32dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_scroll_down.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_scroll_down.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_emoji_symbols_activated_light.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_emoji_symbols_activated_light.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_scroll_down.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_scroll_down.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_done_all_white_18dp.png.flat",
@@ -956,12 +956,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_call_made_grey600_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/xml-mcc311-mnc223_mms_config.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/res/xml-mcc311-mnc223/mms_config.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/color-v23_abc_tint_switch_track.xml.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/xml-mcc311-mnc223_mms_config.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/res/xml-mcc311-mnc223/mms_config.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -980,20 +980,20 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable/webrtc_mute_button.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_media_preview_activity.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/media_preview_activity.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_message_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/message_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_emoji_nature_normal_light.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_emoji_nature_normal_light.png"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_media_preview_activity.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/media_preview_activity.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_replay_white_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_replay_white_24dp.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_emoji_nature_normal_light.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_emoji_nature_normal_light.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_emoji_places_activated_dark.png.flat",
@@ -1040,12 +1040,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable/ic_forum_24dp.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_security_white_24dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_security_white_24dp.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_warning_dark.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_warning_dark.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_security_white_24dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_security_white_24dp.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_focused.9.png.flat",
@@ -1056,12 +1056,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-hdpi/ic_restore_white_24dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable_emoji_category_activity_dark.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable/emoji_category_activity_dark.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-ldpi-v4_exo_controls_previous.png.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.3.1.aar/7656a9644123544b46cbc3b97dd7221a/res/drawable-ldpi-v4/exo_controls_previous.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable_emoji_category_activity_dark.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable/emoji_category_activity_dark.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -1124,12 +1124,12 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/android-smsmms-4.0.1.aar/8ad5a1fb07af5d7ae2f4162c123f2ccd/res/xml-mcc242-mnc002/mms_config.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_preference_widget_color_swatch.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/preference_widget_color_swatch.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_image_dark.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_image_dark.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_preference_widget_color_swatch.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/preference_widget_color_swatch.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_redphone_ic_lockscreen_chevron_down.png.flat",
@@ -1180,12 +1180,12 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxxhdpi_ic_emoji_flag_normal_dark.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxxhdpi/ic_emoji_flag_normal_dark.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/color_cpb_complete_state_selector.xml.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/library-1.1.3-S2.aar/4e8d9404b2511d54eb940b9675b6c4c2/res/color/cpb_complete_state_selector.xml"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxxhdpi_ic_emoji_flag_normal_dark.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxxhdpi/ic_emoji_flag_normal_dark.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_video_splash.png.flat",
@@ -1196,12 +1196,12 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/tooltips-1.0.6.aar/8e2a9a62e9dfadfa13163379ca735235/res/drawable-xxhdpi-v4/tooltip_arrow_down_right.9.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_info_outline_white_24dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_info_outline_white_24dp.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi-v4_fab_shadow.png.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.3.0.aar/4d3407bcd79e8e43eed27d60f5e414b9/res/drawable-hdpi-v4/fab_shadow.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_info_outline_white_24dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_info_outline_white_24dp.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_info_outline_white_24dp.png.flat",
@@ -1288,12 +1288,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_activity_attachment_editor_stub.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_person_white_24dp.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_person_white_24dp.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_media_view_edit_button.xml.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/media_view_edit_button.xml"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_person_white_24dp.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_person_white_24dp.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxxhdpi_baseline_email_white_24.png.flat",
@@ -1320,12 +1320,12 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_volume_off_grey600_18dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/anim_abc_fade_in.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/anim/abc_fade_in.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_mic_off_white_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xxhdpi/ic_mic_off_white_24dp.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/anim_abc_fade_in.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xxhdpi_ic_create_white_24dp.png.flat",
@@ -1340,12 +1340,12 @@
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/7c6a7c25578cf99c026adfbce0e2d18c/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_abc_list_menu_item_icon.xml.flat",
-        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-xhdpi_ic_signal_grey_24dp.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-xhdpi/ic_signal_grey_24dp.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_abc_list_menu_item_icon.xml.flat",
+        "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-hdpi_ic_keyboard_white_24dp.png.flat",
@@ -1388,20 +1388,20 @@
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_block_white_18dp.png"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_emoji_symbols_activated_dark.png.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_emoji_symbols_activated_dark.png"
-    },
-    {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable_abc_seekbar_track_material.xml.flat",
         "source": "/home/devon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/73f35f3868c0f4f2d7c0358509253b4a/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_preference_right_summary_widget.xml.flat",
-        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/preference_right_summary_widget.xml"
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_emoji_symbols_activated_dark.png.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_emoji_symbols_activated_dark.png"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_ic_emoji_nature_activated_dark.png.flat",
         "source": "/home/devon/Documents/signal-android-V3.1-clean/res/drawable-mdpi/ic_emoji_nature_activated_dark.png"
+    },
+    {
+        "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/layout_preference_right_summary_widget.xml.flat",
+        "source": "/home/devon/Documents/signal-android-V3.1-clean/res/layout/preference_right_summary_widget.xml"
     },
     {
         "merged": "/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/res/merged/play/debug/drawable-mdpi_icon_dialog.png.flat",

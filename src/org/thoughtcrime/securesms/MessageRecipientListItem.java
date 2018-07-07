@@ -109,7 +109,14 @@ public class MessageRecipientListItem extends RelativeLayout
       conflictButton.setVisibility(View.VISIBLE);
 
       errorText = getContext().getString(R.string.MessageDetailsRecipient_new_safety_number);
-      conflictButton.setOnClickListener(v -> new ConfirmIdentityDialog(getContext(), record, keyMismatch).show());
+
+      //Devon newAuth code starts: comment out next line and add the new ConfirmIdentityDialogNew view instead
+      //conflictButton.setOnClickListener(v -> new ConfirmIdentityDialog(getContext(), record, keyMismatch).show());
+
+      conflictButton.setOnClickListener(v -> new ConfirmIdentityDialogNew(getContext(), record, keyMismatch).show());
+
+      //Devon code ends
+
     } else if (networkFailure != null || (!isPushGroup && record.isFailed())) {
       resendButton.setVisibility(View.VISIBLE);
       resendButton.setEnabled(true);

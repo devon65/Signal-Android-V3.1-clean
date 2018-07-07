@@ -663,7 +663,12 @@ public class ConversationItem extends LinearLayout
       throw new AssertionError("Identity mismatch count: " + mismatches.size());
     }
 
-    new ConfirmIdentityDialog(context, messageRecord, mismatches.get(0)).show();
+    //Devon newAuth code starts: comment out next line and add the new ConfirmIdentityDialogNew view instead
+    //new ConfirmIdentityDialog(context, messageRecord, mismatches.get(0)).show();
+
+    new ConfirmIdentityDialogNew(context, messageRecord, mismatches.get(0)).show();
+
+    //Devon code ends
   }
 
   @Override
