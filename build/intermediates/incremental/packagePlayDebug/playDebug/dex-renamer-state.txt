@@ -1,4 +1,0 @@
-#Wed Jul 11 09:14:59 MDT 2018
-base.0=/home/devon/Documents/signal-android-V3.1-clean/build/intermediates/transforms/dexMerger/play/debug/5
-path.0=classes.dex
-renamed.0=classes.dex

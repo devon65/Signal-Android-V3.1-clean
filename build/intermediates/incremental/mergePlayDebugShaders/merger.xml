@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/devon/Documents/signal-android-V3.1-clean/src/main/shaders"/></dataSet><dataSet config="play"><source path="/home/devon/Documents/signal-android-V3.1-clean/src/play/shaders"/></dataSet><dataSet config="debug"><source path="/home/devon/Documents/signal-android-V3.1-clean/src/debug/shaders"/></dataSet><dataSet config="playDebug"><source path="/home/devon/Documents/signal-android-V3.1-clean/src/playDebug/shaders"/></dataSet></merger>
