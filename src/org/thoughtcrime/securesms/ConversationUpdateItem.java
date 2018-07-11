@@ -17,6 +17,7 @@ import android.widget.TextView;
 import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
 import org.thoughtcrime.securesms.database.IdentityDatabase;
 import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
 import org.thoughtcrime.securesms.database.model.MessageRecord;
 import org.thoughtcrime.securesms.mms.GlideRequests;
 import org.thoughtcrime.securesms.recipients.Recipient;
@@ -214,12 +215,28 @@ public class ConversationUpdateItem extends LinearLayout
         @Override
         public void onSuccess(Optional<IdentityRecord> result) {
           if (result.isPresent()) {
-            Intent intent = new Intent(getContext(), VerifyIdentityActivity.class);
-            intent.putExtra(VerifyIdentityActivity.ADDRESS_EXTRA, sender.getAddress());
-            intent.putExtra(VerifyIdentityActivity.IDENTITY_EXTRA, new IdentityKeyParcelable(result.get().getIdentityKey()));
-            intent.putExtra(VerifyIdentityActivity.VERIFIED_EXTRA, result.get().getVerifiedStatus() == IdentityDatabase.VerifiedStatus.VERIFIED);
 
-            getContext().startActivity(intent);
+            //Devon newAuth code starts: redirecting the text message warning to the standard warning
+            //if the contact is marked as UNVERIFIED
+
+            if (result.get().getVerifiedStatus() == IdentityDatabase.VerifiedStatus.UNVERIFIED) {
+              IdentityKeyMismatch mismatch = new IdentityKeyMismatch(result.get().getAddress(),
+                      result.get().getIdentityKey());
+              new ConfirmIdentityDialogNew(getContext(), messageRecord.getThreadId(), mismatch).show();
+            }
+            else {
+
+              //Devon Comment: directs the click directly to the VerifyIdentityActivity
+
+              Intent intent = new Intent(getContext(), VerifyIdentityActivity.class);
+              intent.putExtra(VerifyIdentityActivity.ADDRESS_EXTRA, sender.getAddress());
+              intent.putExtra(VerifyIdentityActivity.IDENTITY_EXTRA, new IdentityKeyParcelable(result.get().getIdentityKey()));
+              intent.putExtra(VerifyIdentityActivity.VERIFIED_EXTRA, result.get().getVerifiedStatus() == IdentityDatabase.VerifiedStatus.VERIFIED);
+
+              getContext().startActivity(intent);
+            }
+
+            //Devon code ends
           }
         }
 

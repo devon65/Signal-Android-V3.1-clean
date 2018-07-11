@@ -87,7 +87,7 @@
 
 
 
-    <!-- Devon newAuth string code starts: commenting out next line and then adding new text -->
+    <!-- Devon newAuth string code starts: commenting out old warnings and adding new warning message -->
 
     <!--
     <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Your safety number with %1$s has changed. This could either mean that someone is trying to intercept your communication, or that %2$s simply reinstalled Signal.</string>
@@ -95,7 +95,7 @@
     <string name="ConfirmIdentityDialog_accept">Accept</string>
      -->
 
-    <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">The security of your conversation with %1$s is no longer verified. This could either mean that someone is trying to intercept your communication, or that %2$s simply reinstalled Signal. Please verify your shared passcode with %1$s.</string>
+    <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">The privacy of your conversation with %1$s is no longer guaranteed. This could either mean that someone is trying to intercept your communication, or that %2$s simply reinstalled Signal. Please verify your shared passcode with %1$s.</string>
     <string name="ConfirmIdentityDialog_accept">Verify Now</string>
     <string name="ConfirmIdentityDialog_verify_later">Verify Later</string>
 
@@ -425,7 +425,13 @@
 
     <!-- MessageDetailsRecipient -->
     <string name="MessageDetailsRecipient_failed_to_send">Failed to send</string>
-    <string name="MessageDetailsRecipient_new_safety_number">New safety number</string>
+
+    <!-- Devon newAuth string code starts: commenting out old warning and adding new warning message -->
+    <!-- <string name="MessageDetailsRecipient_new_safety_number">New safety number</string> -->
+
+    <string name="MessageDetailsRecipient_new_safety_number">Privacy no longer guaranteed</string>
+
+    <!-- Devon code ends -->
 
     <!-- MessageRetrievalService -->
     <string name="MessageRetrievalService_signal">Signal</string>
@@ -473,7 +479,14 @@
     <string name="MessageRecord_s_joined_signal">%s is on Signal!</string>
     <string name="MessageRecord_you_set_disappearing_message_time_to_s">You set disappearing message time to %1$s.</string>
     <string name="MessageRecord_s_set_disappearing_message_time_to_s">%1$s set disappearing message time to %2$s.</string>
-    <string name="MessageRecord_your_safety_number_with_s_has_changed">Your safety number with %s has changed.</string>
+
+    <!-- Devon newAuth string code starts: commenting out old warning and adding new warning message -->
+    <!-- <string name="MessageRecord_your_safety_number_with_s_has_changed">Your safety number with %s has changed.</string> -->
+
+    <string name="MessageRecord_your_safety_number_with_s_has_changed">Your privacy with %s is no longer guaranteed.</string>
+
+    <!-- Devon code ends -->
+
     <string name="MessageRecord_you_marked_your_safety_number_with_s_verified">You marked your safety number with %s verified</string>
     <string name="MessageRecord_you_marked_your_safety_number_with_s_verified_from_another_device">You marked your safety number with %s verified from another device</string>
     <string name="MessageRecord_you_marked_your_safety_number_with_s_unverified">You marked your safety number with %s unverified</string>
@@ -953,10 +966,10 @@
     
     <!-- unverified safety numbers -->
 
-    <!-- Devon newAuth string code starts: commenting out the next line and adding new warning message -->
+    <!-- Devon newAuth string code starts: commenting out old warning and adding new warning message -->
     <!-- <string name="IdentityUtil_unverified_banner_one">Your safety number with %s has changed and is no longer verified</string> -->
 
-    <string name="IdentityUtil_unverified_banner_one">The security of your conversation with %s is no longer verified. Tap for details.</string>
+    <string name="IdentityUtil_unverified_banner_one">The privacy of your conversation with %s is no longer guaranteed. Tap for details.</string>
 
     <!-- Devon code ends -->
 

@@ -114,6 +114,7 @@ import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
 import org.thoughtcrime.securesms.database.MmsSmsColumns.Types;
 import org.thoughtcrime.securesms.database.RecipientDatabase.RegisteredState;
 import org.thoughtcrime.securesms.database.ThreadDatabase;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
 import org.thoughtcrime.securesms.database.identity.IdentityRecordList;
 import org.thoughtcrime.securesms.database.model.MessageRecord;
 import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
@@ -919,7 +920,19 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
 
     //Devon newAuth code starts: commenting out the old "UnverifiedSendDialog" to replace with the new standard dialog
 
-    //noinspection CodeBlock2Expr
+    if (unverifiedRecords.size() == 1){
+      IdentityKeyMismatch mismatch = new IdentityKeyMismatch(unverifiedRecords.get(0).getAddress(),
+              unverifiedRecords.get(0).getIdentityKey());
+      new ConfirmIdentityDialogNew(ConversationActivity.this, threadId, mismatch).show();
+    }
+    else{
+      String burnt = "Congratulations! You have successfully done some weird crap!";
+      Log.w(TAG, "More than one person is in this conversation. Attack is not built for " +
+              "multiple people.");
+      Toast.makeText(ConversationActivity.this, burnt, Toast.LENGTH_LONG).show();
+    }
+
+    /*//noinspection CodeBlock2Expr
     new UnverifiedSendDialog(this, message, unverifiedRecords, () -> {
       initializeIdentityRecords().addListener(new ListenableFuture.Listener<Boolean>() {
         @Override
@@ -932,9 +945,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
           throw new AssertionError(e);
         }
       });
-    }).show();
-
-    //new ConfirmIdentityDialogNew(ConversationActivity.this, messageRecord, mismatches.get(0)).show();
+    }).show();*/
 
     //Devon code ends
   }
@@ -2163,7 +2174,26 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     @Override
     public void onClicked(final List<IdentityRecord> unverifiedIdentities) {
       Log.w(TAG, "onClicked: " + unverifiedIdentities.size());
-      if (unverifiedIdentities.size() == 1) {
+
+
+      //Devon newAuth code starts: redirect blue banner to the standard warning message
+
+      if (unverifiedIdentities.size() == 1){
+        IdentityKeyMismatch mismatch = new IdentityKeyMismatch(unverifiedIdentities.get(0).getAddress(),
+                unverifiedIdentities.get(0).getIdentityKey());
+        new ConfirmIdentityDialogNew(ConversationActivity.this, threadId, mismatch).show();
+      }
+      else{
+        String burnt = "Congratulations! You have successfully done some weird crap!";
+        Log.w(TAG, "More than one person is in this conversation. Attack is not built for " +
+                "multiple people.");
+        Toast.makeText(ConversationActivity.this, burnt, Toast.LENGTH_LONG).show();
+      }
+
+
+      //Devon: The following commented out code takes the blue banner to the VerifyIdentityActivity
+
+      /*if (unverifiedIdentities.size() == 1) {
         Intent intent = new Intent(ConversationActivity.this, VerifyIdentityActivity.class);
         intent.putExtra(VerifyIdentityActivity.ADDRESS_EXTRA, unverifiedIdentities.get(0).getAddress());
         intent.putExtra(VerifyIdentityActivity.IDENTITY_EXTRA, new IdentityKeyParcelable(unverifiedIdentities.get(0).getIdentityKey()));
@@ -2189,7 +2219,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
           startActivity(intent);
         });
         builder.show();
-      }
+      }*/
+
+      //Devon code ends
     }
   }
 

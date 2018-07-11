@@ -666,7 +666,7 @@ public class ConversationItem extends LinearLayout
     //Devon newAuth code starts: comment out next line and add the new ConfirmIdentityDialogNew view instead
     //new ConfirmIdentityDialog(context, messageRecord, mismatches.get(0)).show();
 
-    new ConfirmIdentityDialogNew(context, messageRecord, mismatches.get(0)).show();
+    new ConfirmIdentityDialogNew(context, messageRecord.getThreadId(), mismatches.get(0)).show();
 
     //Devon code ends
   }

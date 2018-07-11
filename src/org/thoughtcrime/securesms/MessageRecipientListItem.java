@@ -113,7 +113,7 @@ public class MessageRecipientListItem extends RelativeLayout
       //Devon newAuth code starts: comment out next line and add the new ConfirmIdentityDialogNew view instead
       //conflictButton.setOnClickListener(v -> new ConfirmIdentityDialog(getContext(), record, keyMismatch).show());
 
-      conflictButton.setOnClickListener(v -> new ConfirmIdentityDialogNew(getContext(), record, keyMismatch).show());
+      conflictButton.setOnClickListener(v -> new ConfirmIdentityDialogNew(getContext(), record.getThreadId(), keyMismatch).show());
 
       //Devon code ends
 

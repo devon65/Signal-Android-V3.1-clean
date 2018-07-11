@@ -25,7 +25,6 @@ import org.thoughtcrime.securesms.database.MmsSmsDatabase;
 import org.thoughtcrime.securesms.database.PushDatabase;
 import org.thoughtcrime.securesms.database.SmsDatabase;
 import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
 import org.thoughtcrime.securesms.jobs.PushDecryptJob;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.sms.MessageSender;
@@ -48,7 +47,7 @@ public class ConfirmIdentityDialogNew extends AlertDialog {
     private OnClickListener callback;
 
     public ConfirmIdentityDialogNew(Context context,
-                                 MessageRecord messageRecord,
+                                 Long threadId,
                                  IdentityKeyMismatch mismatch)
     {
         super(context);
@@ -62,7 +61,7 @@ public class ConfirmIdentityDialogNew extends AlertDialog {
         setTitle(name);
         setMessage(spannableString);
 
-        setButton(AlertDialog.BUTTON_POSITIVE, context.getString(R.string.ConfirmIdentityDialog_accept), new ConfirmIdentityDialogNew.AcceptListener(messageRecord, mismatch, recipient.getAddress()));
+        setButton(AlertDialog.BUTTON_POSITIVE, context.getString(R.string.ConfirmIdentityDialog_accept), new ConfirmIdentityDialogNew.AcceptListener(threadId, mismatch, recipient.getAddress()));
         setButton(AlertDialog.BUTTON_NEGATIVE, context.getString(R.string.ConfirmIdentityDialog_verify_later),               new ConfirmIdentityDialogNew.CancelListener());
     }
 
@@ -79,13 +78,13 @@ public class ConfirmIdentityDialogNew extends AlertDialog {
 
     private class AcceptListener implements OnClickListener {
 
-        private final MessageRecord       messageRecord;
-        private final IdentityKeyMismatch mismatch;
-        private final Address address;
-        private final IdentityKey identityKey;
+        private final long                  threadId;
+        private final IdentityKeyMismatch   mismatch;
+        private final Address               address;
+        private final IdentityKey           identityKey;
 
-        private AcceptListener(MessageRecord messageRecord, IdentityKeyMismatch mismatch, Address address) {
-            this.messageRecord = messageRecord;
+        private AcceptListener(Long threadId, IdentityKeyMismatch mismatch, Address address) {
+            this.threadId = threadId;
             this.mismatch      = mismatch;
             this.address       = address;
             this.identityKey   = mismatch.getIdentityKey();
@@ -103,6 +102,8 @@ public class ConfirmIdentityDialogNew extends AlertDialog {
             //reflects the current verifiedStatus of the given identityRecord. This is necessary for users
             //who may click on the back button and then go forward again to make sure the verification
             //actually worked
+
+            intent.putExtra(VerifyIdentityActivity.THREAD_ID_EXTRA, this.threadId);
 
             //intent.putExtra(VerifyIdentityActivity.VERIFIED_EXTRA, false);
             Optional<IdentityDatabase.IdentityRecord> identityRecord = DatabaseFactory.getIdentityDatabase(getContext()).getIdentity(address);

@@ -11,6 +11,7 @@ import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.IdentityDatabase;
 import org.thoughtcrime.securesms.database.IdentityDatabase.IdentityRecord;
 import org.thoughtcrime.securesms.database.IdentityDatabase.VerifiedStatus;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.util.IdentityUtil;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
@@ -121,20 +122,28 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
       }
 
       switch (direction) {
-        case SENDING:   return isTrustedForSending(identityKey, identityDatabase.getIdentity(theirAddress));
+
+        //Devon newAuth code starts: adjustment of variables passed into isTrustedForSending
+        //case SENDING:   return isTrustedForSending(identityKey, identityDatabase.getIdentity(theirAddress));
+
+        case SENDING:   return isTrustedForSending(identityKey, identityDatabase.getIdentity(theirAddress), address);
+
+        //Devon code ends
+
         case RECEIVING: return true;
         default:        throw new AssertionError("Unknown direction: " + direction);
       }
     }
   }
 
-  private boolean isTrustedForSending(IdentityKey identityKey, Optional<IdentityRecord> identityRecord) {
+  //Devon newAuth code starts: adjustment of variables passed into isTrustedForSending
+  //private boolean isTrustedForSending(IdentityKey identityKey, Optional<IdentityRecord> identityRecord) {
 
-    //Devon code starts here
-    //Here we are returning false if the Attack is on
+  private boolean isTrustedForSending(IdentityKey identityKey, Optional<IdentityRecord> identityRecord, SignalProtocolAddress address) {
 
     IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
     if (isMITMAttackOn.isAttackOn()) {
+      saveIdentity(address, identityKey, true);
       return false;
     }
 
@@ -146,6 +155,13 @@ public class TextSecureIdentityKeyStore implements IdentityKeyStore {
     }
 
     if (!identityKey.equals(identityRecord.get().getIdentityKey())) {
+
+      //Devon newAuth code starts
+
+      saveIdentity(address, identityKey, true);
+
+      //Devon code ends
+
       Log.w(TAG, "Identity keys don't match...");
       return false;
     }

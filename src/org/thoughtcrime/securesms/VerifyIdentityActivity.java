@@ -24,6 +24,7 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -68,13 +69,22 @@ import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
 import org.thoughtcrime.securesms.database.Address;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.IdentityDatabase.VerifiedStatus;
+import org.thoughtcrime.securesms.database.MmsDatabase;
+import org.thoughtcrime.securesms.database.MmsSmsDatabase;
+import org.thoughtcrime.securesms.database.PushDatabase;
+import org.thoughtcrime.securesms.database.SmsDatabase;
+import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.database.model.MessageRecord;
 import org.thoughtcrime.securesms.jobs.MultiDeviceVerifiedUpdateJob;
+import org.thoughtcrime.securesms.jobs.PushDecryptJob;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.qr.QrCode;
 import org.thoughtcrime.securesms.qr.ScanListener;
 import org.thoughtcrime.securesms.qr.ScanningThread;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientModifiedListener;
+import org.thoughtcrime.securesms.sms.MessageSender;
+import org.thoughtcrime.securesms.util.Base64;
 import org.thoughtcrime.securesms.util.DynamicLanguage;
 import org.thoughtcrime.securesms.util.DynamicTheme;
 import org.thoughtcrime.securesms.util.IdentityUtil;
@@ -88,7 +98,10 @@ import org.whispersystems.libsignal.fingerprint.Fingerprint;
 import org.whispersystems.libsignal.fingerprint.FingerprintParsingException;
 import org.whispersystems.libsignal.fingerprint.FingerprintVersionMismatchException;
 import org.whispersystems.libsignal.fingerprint.NumericFingerprintGenerator;
+import org.whispersystems.signalservice.api.messages.SignalServiceEnvelope;
+import org.whispersystems.signalservice.internal.push.SignalServiceProtos;
 
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 
@@ -107,6 +120,12 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
   public static final String ADDRESS_EXTRA  = "address";
   public static final String IDENTITY_EXTRA = "recipient_identity";
   public static final String VERIFIED_EXTRA = "verified_state";
+
+  //Devon newAuth code starts: adding the threadId to process pending messages
+
+  public static final String THREAD_ID_EXTRA = "thread_id";
+
+  //Devon code ends
 
   private final DynamicTheme    dynamicTheme    = new DynamicTheme();
   private final DynamicLanguage dynamicLanguage = new DynamicLanguage();
@@ -137,6 +156,12 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
     extras.putParcelable(VerifyDisplayFragment.LOCAL_IDENTITY, new IdentityKeyParcelable(IdentityKeyUtil.getIdentityKey(this)));
     extras.putString(VerifyDisplayFragment.LOCAL_NUMBER, TextSecurePreferences.getLocalNumber(this));
     extras.putBoolean(VerifyDisplayFragment.VERIFIED_STATE, getIntent().getBooleanExtra(VERIFIED_EXTRA, false));
+
+    //Devon newAuth code starts: adding the threadId to process pending messages
+
+    extras.putLong(VerifyDisplayFragment.THREAD_ID, getIntent().getLongExtra(THREAD_ID_EXTRA, -1));
+
+    //Devon code ends
 
     scanFragment.setScanListener(this);
     displayFragment.setClickListener(this);
@@ -209,9 +234,21 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
     public static final String LOCAL_NUMBER    = "local_number";
     public static final String VERIFIED_STATE  = "verified_state";
 
+    //Devon newAuth code starts: adding the threadId to process pending messages
+
+    public static final String THREAD_ID       = "thread_id";
+
+    //Devon code ends
+
     private Recipient    recipient;
     private String       localNumber;
     private String       remoteNumber;
+
+    //Devon newAuth code starts: adding the threadId to process pending messages
+
+    private long         threadId;
+
+    //Devon code ends
 
     private IdentityKey localIdentity;
     private IdentityKey remoteIdentity;
@@ -280,6 +317,12 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
       this.recipient      = Recipient.from(getActivity(), address, true);
       this.remoteIdentity = remoteIdentityParcelable.get();
       this.recipient.addListener(this);
+
+      //Devon newAuth code starts: adding the threadId to process pending messages
+
+      this.threadId       = getArguments().getLong(THREAD_ID);
+
+      //Devon code ends
 
       new AsyncTask<Void, Void, Fingerprint>() {
         @Override
@@ -613,6 +656,19 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
                                            remoteIdentity,
                                            VerifiedStatus.VERIFIED, false,
                                            System.currentTimeMillis(), true);
+
+              //Devon code starts here
+              //Here we are turning off the attack mode because the user has marked the contact
+              //as verified
+              IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
+              isMITMAttackOn.setIsAttackOn(false, getContext());
+
+              //Devon newAuth code starts
+              IdentityKeyMismatch mismatch = new IdentityKeyMismatch(recipient.getAddress(), remoteIdentity);
+              processPendingMessageRecords(threadId, mismatch);
+              //Devon code ends here
+
+
             } else {
               DatabaseFactory.getIdentityDatabase(getActivity())
                              .setVerified(params[0].getAddress(),
@@ -629,16 +685,92 @@ public class VerifyIdentityActivity extends PassphraseRequiredActionBarActivity 
                                                                                 VerifiedStatus.DEFAULT));
 
             IdentityUtil.markIdentityVerified(getActivity(), recipient, isChecked, false);
-
-            //Devon code starts here
-            //Here we are turning off the attack mode because the user has marked the contact
-            //as verified
-            IsMITMAttackOn isMITMAttackOn = new IsMITMAttackOn();
-            isMITMAttackOn.setIsAttackOn(false, getContext());
-            //Devon code ends here
           }
           return null;
         }
+
+
+
+        //Devon newAuth code starts: processing pending messages
+
+        private void processMessageRecord(MessageRecord messageRecord, IdentityKeyMismatch mismatch) {
+          if (messageRecord.isOutgoing()) processOutgoingMessageRecord(messageRecord, mismatch);
+          else                            processIncomingMessageRecord(messageRecord, mismatch);
+        }
+
+        private void processPendingMessageRecords(long threadId, IdentityKeyMismatch mismatch) {
+          MmsSmsDatabase mmsSmsDatabase = DatabaseFactory.getMmsSmsDatabase(getContext());
+          Cursor cursor         = mmsSmsDatabase.getIdentityConflictMessagesForThread(threadId);
+          MmsSmsDatabase.Reader reader         = mmsSmsDatabase.readerFor(cursor);
+          MessageRecord         record;
+
+          try {
+            while ((record = reader.getNext()) != null) {
+              for (IdentityKeyMismatch recordMismatch : record.getIdentityKeyMismatches()) {
+                if (mismatch.equals(recordMismatch)) {
+                  processMessageRecord(record, mismatch);
+                }
+              }
+            }
+          } finally {
+            if (reader != null)
+              reader.close();
+          }
+        }
+
+        private void processOutgoingMessageRecord(MessageRecord messageRecord, IdentityKeyMismatch mismatch) {
+          SmsDatabase smsDatabase        = DatabaseFactory.getSmsDatabase(getContext());
+          MmsDatabase mmsDatabase        = DatabaseFactory.getMmsDatabase(getContext());
+
+          if (messageRecord.isMms()) {
+            mmsDatabase.removeMismatchedIdentity(messageRecord.getId(),
+                    mismatch.getAddress(),
+                    mismatch.getIdentityKey());
+
+            if (messageRecord.getRecipient().isPushGroupRecipient()) {
+              MessageSender.resendGroupMessage(getContext(), messageRecord, mismatch.getAddress());
+            } else {
+              MessageSender.resend(getContext(), messageRecord);
+            }
+          } else {
+            smsDatabase.removeMismatchedIdentity(messageRecord.getId(),
+                    mismatch.getAddress(),
+                    mismatch.getIdentityKey());
+
+            MessageSender.resend(getContext(), messageRecord);
+          }
+        }
+
+        private void processIncomingMessageRecord(MessageRecord messageRecord, IdentityKeyMismatch mismatch) {
+          try {
+            PushDatabase pushDatabase = DatabaseFactory.getPushDatabase(getContext());
+            SmsDatabase  smsDatabase  = DatabaseFactory.getSmsDatabase(getContext());
+
+            smsDatabase.removeMismatchedIdentity(messageRecord.getId(),
+                    mismatch.getAddress(),
+                    mismatch.getIdentityKey());
+
+            boolean legacy = !messageRecord.isContentBundleKeyExchange();
+
+            SignalServiceEnvelope envelope = new SignalServiceEnvelope(SignalServiceProtos.Envelope.Type.PREKEY_BUNDLE_VALUE,
+                    messageRecord.getIndividualRecipient().getAddress().toPhoneString(),
+                    messageRecord.getRecipientDeviceId(), "",
+                    messageRecord.getDateSent(),
+                    legacy ? Base64.decode(messageRecord.getBody()) : null,
+                    !legacy ? Base64.decode(messageRecord.getBody()) : null);
+
+            long pushId = pushDatabase.insert(envelope);
+
+            ApplicationContext.getInstance(getContext())
+                    .getJobManager()
+                    .add(new PushDecryptJob(getContext(), pushId, messageRecord.getId()));
+          } catch (IOException e) {
+            throw new AssertionError(e);
+          }
+        }
+
+        //Devon code ends
+
       }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, recipient);
     }
   }
