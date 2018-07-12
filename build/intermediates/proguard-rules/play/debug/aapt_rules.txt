@@ -1,4 +1,4 @@
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:702
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:703
 -keep class android.arch.lifecycle.ProcessLifecycleOwnerInitializer { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/verification_pin_keyboard_view.xml:5
@@ -69,7 +69,7 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/registration_lock_reminder_view.xml:26
 -keep class android.support.design.widget.TextInputLayout { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:614
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:615
 -keep class android.support.v4.content.FileProvider { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/emoji_drawer.xml:39
@@ -204,6 +204,9 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/expiration_dialog.xml:11
 -keep class cn.carbswang.android.numberpickerview.library.NumberPickerView { <init>(...); }
 
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:720
+-keep class com.android.tools.ir.server.InstantRunContentProvider { <init>(...); }
+
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/emoji_drawer.xml:11
 -keep class com.astuetz.PagerSlidingTabStrip { <init>(...); }
 
@@ -228,13 +231,13 @@
 # Referenced at /home/devon/.gradle/caches/transforms-1/files-1.1/exoplayer-r2.3.1.aar/7656a9644123544b46cbc3b97dd7221a/res/layout/exo_simple_player_view.xml:35
 -keep class com.google.android.exoplayer2.ui.SubtitleView { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:714
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:715
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/signal_map_view.xml:8
 -keep class com.google.android.gms.maps.MapView { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:707
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:708
 -keep class com.klinker.android.send_message.MmsFileProvider { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/device_list_fragment.xml:45
@@ -249,7 +252,7 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/transfer_controls_view.xml:5
 -keep class com.pnikosis.materialishprogress.ProgressWheel { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:436
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:437
 -keep class com.soundcloud.android.crop.CropImageActivity { <init>(...); }
 
 # Referenced at /home/devon/.gradle/caches/transforms-1/files-1.1/android-crop-0.9.10.aar/07ea4fd8abac507425196270631af606/res/layout/crop__activity_crop.xml:12
@@ -261,16 +264,16 @@
 # Referenced at /home/devon/.gradle/caches/transforms-1/files-1.1/time-duration-picker-1.1.3.aar/2664a6a92e0489a51086c3bdea2be86a/res/layout/time_duration_picker_dialog.xml:2
 -keep class mobi.upod.timedurationpicker.TimeDurationPicker { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:136
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:136
 -keep class org.thoughtcrime.securesms.ApplicationContext { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:339
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:340
 -keep class org.thoughtcrime.securesms.ApplicationPreferencesActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:423
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:424
 -keep class org.thoughtcrime.securesms.BlockedContactsActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:442
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:443
 -keep class org.thoughtcrime.securesms.ClearProfileAvatarActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/contact_selection_activity.xml:19
@@ -278,17 +281,17 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/share_activity.xml:48
 -keep class org.thoughtcrime.securesms.ContactSelectionListFragment { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:262
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:263
 -keep class org.thoughtcrime.securesms.ConversationActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_item_received.xml:2
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_item_sent.xml:2
 -keep class org.thoughtcrime.securesms.ConversationItem { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:225
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:226
 -keep class org.thoughtcrime.securesms.ConversationListActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:252
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:253
 -keep class org.thoughtcrime.securesms.ConversationListArchiveActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_list_item_view.xml:2
@@ -300,7 +303,7 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_list_item_inbox_zero.xml:2
 -keep class org.thoughtcrime.securesms.ConversationListItemInboxZero { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:272
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:273
 -keep class org.thoughtcrime.securesms.ConversationPopupActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_title_view.xml:2
@@ -309,103 +312,103 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_item_update.xml:2
 -keep class org.thoughtcrime.securesms.ConversationUpdateItem { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:162
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:163
 -keep class org.thoughtcrime.securesms.CountrySelectionActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/country_selection.xml:6
 -keep class org.thoughtcrime.securesms.CountrySelectionFragment { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:437
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:438
 -keep class org.thoughtcrime.securesms.CreateProfileActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:290
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:291
 -keep class org.thoughtcrime.securesms.DatabaseMigrationActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:295
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:296
 -keep class org.thoughtcrime.securesms.DatabaseUpgradeActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:348
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:349
 -keep class org.thoughtcrime.securesms.DeviceActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/device_list_item_view.xml:2
 -keep class org.thoughtcrime.securesms.DeviceListItem { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:183
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:184
 -keep class org.thoughtcrime.securesms.DeviceProvisioningActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:369
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:370
 -keep class org.thoughtcrime.securesms.DummyActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:300
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:301
 -keep class org.thoughtcrime.securesms.ExperienceUpgradeActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:660
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:661
 -keep class org.thoughtcrime.securesms.ExperienceUpgradeActivity$AppUpgradeReceiver { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:286
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:287
 -keep class org.thoughtcrime.securesms.GroupCreateActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:165
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:166
 -keep class org.thoughtcrime.securesms.ImportExportActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:168
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:169
 -keep class org.thoughtcrime.securesms.InviteActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:352
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:353
 -keep class org.thoughtcrime.securesms.LogSubmitActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:698
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:699
 -keep class org.thoughtcrime.securesms.ManInMiddleService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:363
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:364
 -keep class org.thoughtcrime.securesms.MediaOverviewActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:357
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:358
 -keep class org.thoughtcrime.securesms.MediaPreviewActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:280
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:281
 -keep class org.thoughtcrime.securesms.MessageDetailsActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/message_recipient_list_item.xml:2
 -keep class org.thoughtcrime.securesms.MessageRecipientListItem { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:317
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:318
 -keep class org.thoughtcrime.securesms.NewConversationActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:332
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:333
 -keep class org.thoughtcrime.securesms.PassphraseChangeActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:305
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:306
 -keep class org.thoughtcrime.securesms.PassphraseCreateActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:312
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:313
 -keep class org.thoughtcrime.securesms.PassphrasePromptActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:380
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:381
 -keep class org.thoughtcrime.securesms.PlayServicesProblemActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:178
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:179
 -keep class org.thoughtcrime.securesms.PromptMmsActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:322
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:323
 -keep class org.thoughtcrime.securesms.PushContactSelectionActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:419
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:420
 -keep class org.thoughtcrime.securesms.RecipientPreferenceActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:342
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:343
 -keep class org.thoughtcrime.securesms.RegistrationActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:198
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:199
 -keep class org.thoughtcrime.securesms.ShareActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:384
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:385
 -keep class org.thoughtcrime.securesms.SmsSendtoActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:336
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:337
 -keep class org.thoughtcrime.securesms.VerifyIdentityActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:156
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:157
 -keep class org.thoughtcrime.securesms.WebRtcCallActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/webrtc_call_controls.xml:10
@@ -683,49 +686,49 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/push_recipients_panel.xml:9
 -keep class org.thoughtcrime.securesms.contacts.RecipientsEditor { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:458
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:459
 -keep class org.thoughtcrime.securesms.contactshare.ContactNameEditActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:454
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:455
 -keep class org.thoughtcrime.securesms.contactshare.ContactShareEditActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:462
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:463
 -keep class org.thoughtcrime.securesms.contactshare.SharedContactDetailsActivity { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:529
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:530
 -keep class org.thoughtcrime.securesms.gcm.GcmBroadcastReceiver { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/giphy_thumbnail.xml:7
 -keep class org.thoughtcrime.securesms.giph.ui.AspectRatioImageView { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:327
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:328
 -keep class org.thoughtcrime.securesms.giph.ui.GiphyActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/giphy_activity.xml:19
 -keep class org.thoughtcrime.securesms.giph.ui.GiphyActivityToolbar { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:589
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:590
 -keep class org.thoughtcrime.securesms.notifications.AndroidAutoHeardReceiver { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:596
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:597
 -keep class org.thoughtcrime.securesms.notifications.AndroidAutoReplyReceiver { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:655
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:656
 -keep class org.thoughtcrime.securesms.notifications.DeleteNotificationReceiver { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:573
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:574
 -keep class org.thoughtcrime.securesms.notifications.MarkReadReceiver { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:650
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:651
 -keep class org.thoughtcrime.securesms.notifications.MessageNotifier$ReminderReceiver { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:581
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:582
 -keep class org.thoughtcrime.securesms.notifications.RemoteReplyReceiver { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/blocked_contact_list_item.xml:3
 -keep class org.thoughtcrime.securesms.preferences.BlockedContactListItem { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:195
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:196
 -keep class org.thoughtcrime.securesms.preferences.MmsPreferencesActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/xml/recipient_preferences.xml:34
@@ -763,19 +766,19 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_activity_group_share_profile_stub.xml:2
 -keep class org.thoughtcrime.securesms.profiles.GroupShareProfileView { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:609
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:610
 -keep class org.thoughtcrime.securesms.providers.MmsBodyProvider { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:604
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:605
 -keep class org.thoughtcrime.securesms.providers.PartProvider { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:427
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:428
 -keep class org.thoughtcrime.securesms.scribbles.ScribbleActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/scribble_activity.xml:11
 -keep class org.thoughtcrime.securesms.scribbles.ScribbleToolbar { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:432
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:433
 -keep class org.thoughtcrime.securesms.scribbles.StickerSelectActivity { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/scribble_view.xml:19
@@ -790,64 +793,64 @@
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/scribble_activity.xml:31
 -keep class org.thoughtcrime.securesms.scribbles.widget.VerticalSlideColorPicker { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:495
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:496
 -keep class org.thoughtcrime.securesms.service.AccountAuthenticatorService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:470
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:471
 -keep class org.thoughtcrime.securesms.service.ApplicationMigrationService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:624
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:625
 -keep class org.thoughtcrime.securesms.service.BootReceiver { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:506
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:507
 -keep class org.thoughtcrime.securesms.service.ContactsSyncAdapterService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:520
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:521
 -keep class org.thoughtcrime.securesms.service.DirectShareService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:630
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:631
 -keep class org.thoughtcrime.securesms.service.DirectoryRefreshListener { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:527
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:528
 -keep class org.thoughtcrime.securesms.service.GenericForegroundService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:473
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:474
 -keep class org.thoughtcrime.securesms.service.KeyCachingService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:640
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:641
 -keep class org.thoughtcrime.securesms.service.LocalBackupListener { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:477
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:478
 -keep class org.thoughtcrime.securesms.service.MessageRetrievalService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:557
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:558
 -keep class org.thoughtcrime.securesms.service.MmsListener { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:670
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:671
 -keep class org.thoughtcrime.securesms.service.PanicResponderListener { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:645
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:646
 -keep class org.thoughtcrime.securesms.service.PersistentConnectionBootListener { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:480
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:481
 -keep class org.thoughtcrime.securesms.service.QuickResponseService { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:635
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:636
 -keep class org.thoughtcrime.securesms.service.RotateSignedPreKeyListener { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:550
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:551
 -keep class org.thoughtcrime.securesms.service.SmsDeliveryListener { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:538
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:539
 -keep class org.thoughtcrime.securesms.service.SmsListener { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:467
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:468
 -keep class org.thoughtcrime.securesms.service.WebRtcCallService { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/media_view_video.xml:2
 -keep class org.thoughtcrime.securesms.video.VideoPlayer { <init>(...); }
 
-# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/full/play/debug/AndroidManifest.xml:405
+# Referenced at /home/devon/Documents/signal-android-V3.1-clean/build/intermediates/manifests/instant-run/play/debug/AndroidManifest.xml:406
 -keep class org.thoughtcrime.securesms.webrtc.VoiceCallShare { <init>(...); }
 
 # Referenced at /home/devon/Documents/signal-android-V3.1-clean/res/layout/conversation_item_pending_v11.xml:5
