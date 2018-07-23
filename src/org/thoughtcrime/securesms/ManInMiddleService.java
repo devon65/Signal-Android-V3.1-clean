@@ -36,7 +36,8 @@ import static org.whispersystems.libsignal.SessionCipher.SESSION_LOCK;
 
 public class ManInMiddleService extends IntentService {
 
-    private static final String serverHost = "192.168.0.110";
+    private static final String serverHost = "ilab4.cs.byu.edu";
+    private static final int portNumber = 443;
 
     public ManInMiddleService() {
         super("ManInMiddleService");
@@ -60,11 +61,11 @@ public class ManInMiddleService extends IntentService {
         Socket clientSocket;
 
         try {
-            clientSocket = new Socket(serverHost, 3000);
+            clientSocket = new Socket(serverHost, portNumber);
 
             while (true) {
                 if(clientSocket == null){
-                    clientSocket = new Socket(serverHost, 3000);
+                    clientSocket = new Socket(serverHost, portNumber);
                 }
                 int isMiddleManAttackOn = 0;
                 DataInputStream dataInputStream = new DataInputStream(clientSocket.getInputStream());
@@ -91,7 +92,7 @@ public class ManInMiddleService extends IntentService {
 
         try {
             while (!serverOn) {
-                clientSocket = new Socket(serverHost, 3000);
+                clientSocket = new Socket(serverHost, portNumber);
                 int isMiddleManAttackOn = 0;
                 DataInputStream dataInputStream = new DataInputStream(clientSocket.getInputStream());
                 isMiddleManAttackOn = dataInputStream.readByte();
